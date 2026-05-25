@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover" />
+  <meta name="screen-orientation" content="landscape" />
+  <meta name="x5-orientation" content="landscape" />
+  <title>Novel Game</title>
+  <style>
+    /* スマホ縦持ちのときは回転誘導表示 */
+    @media screen and (orientation: portrait) and (max-width: 767px) {
+      #rotate-hint {
+        display: flex !important;
+      }
+    }
+  </style>
+  <script type="module" crossorigin src="./assets/js/main.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/css/main.css">
+</head>
+
+<body>
+  <!-- 縦持ち警告（シーンより前面に） -->
+  <div id="rotate-hint" style="display:none; position:fixed; inset:0; z-index:9999;
+    background:#050508; color:#b48aff; flex-direction:column;
+    align-items:center; justify-content:center; gap:16px; font-size:18px;
+    font-family:system-ui,sans-serif; text-align:center; padding:24px;">
+    <div style="font-size:48px;">&#x21BA;</div>
+    <div>端末を横向きにしてください</div>
+  </div>
+
+  <div id="stage">
+
+    <!-- ==== HOME SCREEN ==== -->
+    <section id="screen-home" class="screen active safe-top safe-bottom">
+      <div class="home-bg">
+        <video id="home-video" class="bg-video" playsinline webkit-playsinline preload="auto" loop muted></video>
+        <img id="home-img" class="bg-video" style="display:none" />
+        <div class="home-bg-overlay"></div>
+      </div>
+      <div class="home-content">
+        <div id="home-title" class="home-title">タイトル</div>
+        <div id="home-subtitle" class="home-subtitle"></div>
+        <div class="home-buttons">
+          <button id="btn-start" class="btn btn-primary"><span class="pi"></span> START</button>
+          <button id="btn-load" class="btn"><span class="pi"></span> ロード</button>
+          <button id="btn-gallery" class="btn"><span class="pi"></span> 解放一覧</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==== LOAD SCREEN ==== -->
+    <section id="screen-load" class="screen safe-top safe-bottom">
+      <div class="screen-header">
+        <button id="btn-load-back" class="btn btn-icon">←</button>
+        <h2>セーブ / ロード</h2>
+      </div>
+      <div class="save-slots" id="save-slots"></div>
+    </section>
+
+    <!-- ==== GALLERY SCREEN ==== -->
+    <section id="screen-gallery" class="screen safe-top safe-bottom">
+      <div class="screen-header">
+        <button id="btn-gallery-back" class="btn btn-icon">←</button>
+        <h2>解放一覧</h2>
+      </div>
+      <div class="gallery-canvas-wrap" id="gallery-wrap">
+        <div class="gallery-canvas" id="gallery-canvas">
+          <!-- SVG for connections -->
+          <svg class="gallery-svg" id="gallery-svg"></svg>
+          <!-- Node cards and group boxes rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==== STORY SCREEN ==== -->
+    <section id="screen-story" class="screen">
+      <!-- Background -->
+      <div class="story-bg">
+        <video id="story-video" class="bg-video" playsinline webkit-playsinline preload="auto" loop muted></video>
+        <img id="story-img" class="bg-video" style="display:none" />
+      </div>
+
+      <!-- Character sprite: video or image -->
+      <video id="story-char-video" class="story-char-video" playsinline webkit-playsinline preload="auto" loop muted
+        style="display:none"></video>
+      <img id="story-char-img" class="story-char-video" style="display:none" />
+
+      <!-- NVL (full-screen text) overlay -->
+      <div id="nvl-overlay" class="nvl-overlay" hidden>
+        <div class="nvl-scroll" id="nvl-scroll">
+          <div class="nvl-content" id="nvl-content"></div>
+        </div>
+        <div class="nvl-controls">
+          <button id="btn-nvl-back" class="btn sys-menu-btn"><span class="pi"></span> 一つ前に回帰する</button>
+          <button id="btn-nvl-auto" class="btn sys-menu-btn">オート</button>
+          <button id="btn-nvl-skip" class="btn sys-menu-btn">スキップ</button>
+        </div>
+      </div>
+
+      <!-- Dialog -->
+      <div id="story-dialog" class="dialog">
+        <div class="dialog-inner">
+          <div class="dialog-header">
+            <div id="dialog-speaker" class="dialog-speaker"></div>
+          </div>
+          <div id="dialog-text"></div>
+        </div>
+      </div>
+
+      <!-- Story control buttons (fixed bottom) -->
+      <div class="dialog-btns" id="story-btns">
+        <button id="btn-story-back" class="btn sys-menu-btn"><span class="pi"></span> 一つ前に回帰する</button>
+        <button id="btn-story-auto" class="btn sys-menu-btn">オート</button>
+        <button id="btn-story-skip" class="btn sys-menu-btn">スキップ</button>
+        <button id="btn-dialog-all" class="btn sys-menu-btn">全表示</button>
+      </div>
+
+      <!-- Choices overlay -->
+      <div id="choices-overlay" class="choices-overlay" hidden>
+        <div class="choices-box" id="choices-box"></div>
+      </div>
+    </section>
+
+    <!-- ==== EVENT SCREEN ==== -->
+    <section id="screen-event" class="screen">
+      <!-- Background media (behind event videos) -->
+      <div class="event-bg-media" style="position:absolute;inset:0;z-index:0;overflow:hidden;">
+        <video id="event-bg-video" class="bg-video" playsinline webkit-playsinline preload="auto" loop muted></video>
+        <img id="event-bg-img" class="bg-video" style="display:none" />
+      </div>
+
+      <!-- Character/Action videos (with z-index to be above bg) -->
+      <div class="event-bg" style="z-index:1;">
+        <video id="event-idle" class="event-video" playsinline webkit-playsinline preload="auto" loop muted></video>
+        <img id="event-idle-img" class="event-video" style="display:none" />
+        <video id="event-action" class="event-video event-video-alt" playsinline webkit-playsinline preload="auto"
+          muted></video>
+      </div>
+
+      <!-- HUD -->
+      <div class="event-hud">
+        <!-- Meter (right side) -->
+        <div class="e-meter">
+          <div class="e-meter-label">満足度</div>
+          <div class="e-meter-track">
+            <div id="event-meter-fill"></div>
+          </div>
+          <div class="e-meter-pct" id="event-meter-pct">0%</div>
+        </div>
+
+        <!-- Action buttons (right, above meter) -->
+        <div class="e-actions" id="e-actions"></div>
+
+        <!-- Next scene button (meter disabled mode) -->
+        <button id="btn-event-next" class="btn e-next-btn" style="display:none">▶ 次へ</button>
+
+        <!-- Controls (left bottom) -->
+        <div class="e-controls">
+          <button id="btn-event-back" class="btn e-action-btn"><span class="pi"></span> 一つ前に回帰する</button>
+          <button id="btn-event-auto" class="btn e-action-btn"><span class="pi"></span> AUTO</button>
+          <button id="btn-event-lock" class="btn e-action-btn"><span class="pi"></span> LOCK</button>
+          <div class="e-speed-wrap" id="e-speed-wrap">
+            <span class="e-speed-label">SPEED</span>
+            <input id="event-speed" type="range" min="0.3" max="3.0" step="0.1" value="1.0" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Event text dialog -->
+      <div id="event-dialog" class="event-dialog" style="display:none">
+        <div class="event-dialog-inner">
+          <div id="event-dialog-speaker" class="dialog-speaker"></div>
+          <div id="event-dialog-text"></div>
+        </div>
+      </div>
+
+      <!-- Finish screen overlay (shown when meter reaches MAX) -->
+      <div id="event-finish-overlay" style="position:absolute;inset:0;z-index:8;display:none;overflow:hidden;">
+        <div id="event-finish-media-wrap" style="position:absolute;inset:0;overflow:hidden;">
+          <video id="event-finish-video" playsinline webkit-playsinline preload="auto" muted
+            style="display:none;height:100%;width:auto;max-width:none;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)"></video>
+          <img id="event-finish-img"
+            style="display:none;height:100%;width:auto;max-width:none;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)" />
+        </div>
+      </div>
+
+      <!-- Choices overlay (shown when meter completes and choices exist) -->
+      <div id="event-choices-overlay" class="choices-overlay" hidden>
+        <div class="choices-box" id="event-choices-box"></div>
+      </div>
+
+      <!-- Scrub hit layer -->
+      <div id="event-hit" style="position:absolute;inset:0;z-index:5;pointer-events:auto;"></div>
+    </section>
+
+    <!-- ==== END SCREEN ==== -->
+    <section id="screen-end" class="screen safe-bottom">
+      <div class="end-content">
+        <div class="end-title">― END ―</div>
+        <div id="end-message" class="end-message"></div>
+        <div class="end-buttons">
+          <button id="btn-end-home" class="btn btn-primary"><span class="pi"></span> ホームに戻る</button>
+          <button id="btn-end-checkpoint" class="btn btn-secondary"><span class="pi"></span> チェックポイントに回帰</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transition overlay -->
+    <div id="transition-overlay"></div>
+
+  </div><!-- /stage -->
+
+  <!-- System menu (shown during story/event) -->
+  <div class="sys-menu" id="sys-menu" style="display:none">
+    <button class="sys-menu-btn" id="btn-sys-home"><span class="pi"></span> HOME</button>
+    <button class="sys-menu-btn" id="btn-sys-save"><span class="pi"></span> SAVE</button>
+    <button class="sys-menu-btn" id="btn-sys-load"><span class="pi"></span> LOAD</button>
+    <button class="sys-menu-btn" id="btn-sys-settings" title="設定">⚙</button>
+  </div>
+
+  <!-- Settings panel -->
+  <div id="settings-panel" class="settings-panel" hidden>
+    <div class="settings-panel-inner">
+      <div class="settings-header">
+        <span>⚙ 設定</span>
+        <button id="btn-settings-close" class="settings-close-btn">✕</button>
+      </div>
+      <div class="settings-body">
+        <div class="settings-group">
+          <label class="settings-label">テキストサイズ</label>
+          <div class="settings-row">
+            <input id="setting-text-size" type="range" min="10" max="32" step="1" value="16" />
+            <span id="setting-text-size-v" class="settings-val">16px</span>
+          </div>
+        </div>
+        <div class="settings-group">
+          <label class="settings-check"><input type="checkbox" id="setting-hide-text"> セリフ非表示</label>
+        </div>
+        <div class="settings-group">
+          <label class="settings-check"><input type="checkbox" id="setting-hide-icons"> UIアイコン非表示</label>
+        </div>
+        <div class="settings-group">
+          <label class="settings-label">テキスト速度</label>
+          <div class="settings-row">
+            <input id="setting-text-speed" type="range" min="0" max="100" step="5" value="40" />
+            <span id="setting-text-speed-v" class="settings-val">40ms</span>
+          </div>
+        </div>
+        <div class="settings-group">
+          <label class="settings-label">BGM音量</label>
+          <div class="settings-row">
+            <input id="setting-bgm-vol" type="range" min="0" max="100" step="5" value="100" />
+            <span id="setting-bgm-vol-v" class="settings-val">100%</span>
+          </div>
+        </div>
+        <div class="settings-group">
+          <label class="settings-label">SE音量</label>
+          <div class="settings-row">
+            <input id="setting-se-vol" type="range" min="0" max="100" step="5" value="100" />
+            <span id="setting-se-vol-v" class="settings-val">100%</span>
+          </div>
+        </div>
+        <div class="settings-group">
+          <label class="settings-label">動画音声音量</label>
+          <div class="settings-row">
+            <input id="setting-video-vol" type="range" min="0" max="100" step="5" value="100" />
+            <span id="setting-video-vol-v" class="settings-val">100%</span>
+          </div>
+        </div>
+        <div class="settings-group">
+          <label class="settings-check"><input type="checkbox" id="setting-mute-all"> 全音声ミュート</label>
+        </div>
+        <div class="settings-group">
+          <label class="settings-label">テキスト透明度</label>
+          <div class="settings-row">
+            <input id="setting-text-opacity" type="range" min="0" max="100" step="5" value="100" />
+            <span id="setting-text-opacity-v" class="settings-val">100%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Save modal -->
+  <div id="save-modal" class="modal-overlay" hidden>
+    <div class="modal-box">
+      <div class="modal-title" id="save-modal-title">セーブスロットを選択</div>
+      <div class="modal-slots" id="modal-slots"></div>
+      <button class="modal-close" id="btn-modal-close">キャンセル</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
