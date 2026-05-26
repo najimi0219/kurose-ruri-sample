@@ -9244,8 +9244,8 @@
       "id": "node_e_62",
       "type": "event",
       "pos": [
-        6150,
-        5750
+        6120,
+        5730
       ],
       "title": "素股/四つん這い",
       "background": {
@@ -9282,7 +9282,8 @@
           "speaker": "ルリ",
           "finishMediaScale": 1,
           "finishMediaPosX": 50,
-          "finishMediaPosY": 50
+          "finishMediaPosY": 50,
+          "nextNodeId": ""
         },
         {
           "id": "act4",
@@ -9319,7 +9320,7 @@
           "videoPosX": 50,
           "videoPosY": 50,
           "meterThreshold": 0,
-          "nextNodeId": "node_s_14",
+          "nextNodeId": "node_e_67",
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
@@ -15222,8 +15223,7 @@
       "targetSpeed": 1.5,
       "speedRange": 0.3,
       "finishAudioVolume": 1,
-      "idleVideoBlurBg": true,
-      "hidden": true
+      "idleVideoBlurBg": true
     },
     "node_s_56": {
       "id": "node_s_56",
@@ -17629,7 +17629,8 @@
         }
       ],
       "idleAudio": "assets/audio/node_e_67_anmari.wav",
-      "idleVideoAudioOn": true
+      "idleVideoAudioOn": true,
+      "hidden": true
     },
     "node_s_01_copy6403_copy1591": {
       "id": "node_s_01_copy6403_copy1591",
