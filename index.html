@@ -8,10 +8,21 @@
   <meta name="x5-orientation" content="landscape" />
   <title>Novel Game</title>
   <style>
-    /* スマホ縦持ちのときは回転誘導表示 */
-    @media screen and (orientation: portrait) and (max-width: 767px) {
-      #rotate-hint {
-        display: flex !important;
+    /* スマホ縦持ち時の強制横画面表示 */
+    #game-root {
+      position: fixed;
+      inset: 0;
+    }
+    @media screen and (orientation: portrait) and (pointer: coarse) {
+      #game-root {
+        width: 100vh;
+        height: 100vw;
+        left: 100vw;
+        top: 0;
+        right: auto;
+        bottom: auto;
+        transform: rotate(90deg);
+        transform-origin: top left;
       }
     }
   </style>
@@ -20,13 +31,19 @@
 </head>
 
 <body>
-  <!-- 縦持ち警告（シーンより前面に） -->
-  <div id="rotate-hint" style="display:none; position:fixed; inset:0; z-index:9999;
-    background:#050508; color:#b48aff; flex-direction:column;
-    align-items:center; justify-content:center; gap:16px; font-size:18px;
-    font-family:system-ui,sans-serif; text-align:center; padding:24px;">
-    <div style="font-size:48px;">&#x21BA;</div>
-    <div>端末を横向きにしてください</div>
+  <!-- ゲーム全体ラッパー（縦持ち時は90°回転して強制横画面化） -->
+  <div id="game-root">
+
+  <!-- ローディングオーバーレイ -->
+  <div id="loading-overlay" class="loading-overlay" hidden>
+    <div class="loading-inner">
+      <div class="loading-spinner"></div>
+      <div id="loading-text" class="loading-text">Now Loading...</div>
+      <div class="loading-bar-wrap">
+        <div id="loading-bar" class="loading-bar"></div>
+      </div>
+      <div id="loading-percent" class="loading-percent"></div>
+    </div>
   </div>
 
   <div id="stage">
@@ -110,10 +127,13 @@
 
       <!-- Story control buttons (fixed bottom) -->
       <div class="dialog-btns" id="story-btns">
-        <button id="btn-story-back" class="btn sys-menu-btn"><span class="pi"></span> 一つ前に回帰する</button>
-        <button id="btn-story-auto" class="btn sys-menu-btn">オート</button>
-        <button id="btn-story-skip" class="btn sys-menu-btn">スキップ</button>
-        <button id="btn-dialog-all" class="btn sys-menu-btn">全表示</button>
+        <button class="dialog-btns-toggle" id="btn-story-toggle">▶</button>
+        <div class="dialog-btns-items" id="story-btns-items">
+          <button id="btn-story-back" class="btn sys-menu-btn"><span class="pi"></span> 一つ前に回帰する</button>
+          <button id="btn-story-auto" class="btn sys-menu-btn">オート</button>
+          <button id="btn-story-skip" class="btn sys-menu-btn">スキップ</button>
+          <button id="btn-dialog-all" class="btn sys-menu-btn">全表示</button>
+        </div>
       </div>
 
       <!-- Choices overlay -->
@@ -157,9 +177,9 @@
 
         <!-- Controls (left bottom) -->
         <div class="e-controls">
-          <button id="btn-event-back" class="btn e-action-btn"><span class="pi"></span> 一つ前に回帰する</button>
-          <button id="btn-event-auto" class="btn e-action-btn"><span class="pi"></span> AUTO</button>
-          <button id="btn-event-lock" class="btn e-action-btn"><span class="pi"></span> LOCK</button>
+          <button id="btn-event-back" class="btn e-action-btn"><span class="pi"></span><span class="e-btn-label"> 一つ前に回帰する</span></button>
+          <button id="btn-event-auto" class="btn e-action-btn"><span class="pi"></span><span class="e-btn-label"> AUTO</span></button>
+          <button id="btn-event-lock" class="btn e-action-btn e-lock-btn"><span class="pi"></span><span class="e-btn-label"> LOCK</span></button>
           <div class="e-speed-wrap" id="e-speed-wrap">
             <span class="e-speed-label">SPEED</span>
             <input id="event-speed" type="range" min="0.3" max="3.0" step="0.1" value="1.0" />
@@ -213,10 +233,13 @@
 
   <!-- System menu (shown during story/event) -->
   <div class="sys-menu" id="sys-menu" style="display:none">
-    <button class="sys-menu-btn" id="btn-sys-home"><span class="pi"></span> HOME</button>
-    <button class="sys-menu-btn" id="btn-sys-save"><span class="pi"></span> SAVE</button>
-    <button class="sys-menu-btn" id="btn-sys-load"><span class="pi"></span> LOAD</button>
-    <button class="sys-menu-btn" id="btn-sys-settings" title="設定">⚙</button>
+    <button class="sys-menu-toggle" id="btn-sys-toggle" title="メニュー">☰</button>
+    <div class="sys-menu-items" id="sys-menu-items">
+      <button class="sys-menu-btn" id="btn-sys-home"><span class="pi"></span> HOME</button>
+      <button class="sys-menu-btn" id="btn-sys-save"><span class="pi"></span> SAVE</button>
+      <button class="sys-menu-btn" id="btn-sys-load"><span class="pi"></span> LOAD</button>
+      <button class="sys-menu-btn" id="btn-sys-settings" title="設定">⚙</button>
+    </div>
   </div>
 
   <!-- Settings panel -->
@@ -290,6 +313,8 @@
       <button class="modal-close" id="btn-modal-close">キャンセル</button>
     </div>
   </div>
+
+  </div><!-- /game-root -->
 
 </body>
 
