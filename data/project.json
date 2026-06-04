@@ -1605,12 +1605,11 @@
         "posX": 50,
         "posY": 50
       },
-      "bgm": "",
       "transition": "white-fade",
       "text": [
         {
           "speaker": "オジ",
-          "body": "ルリちゃん……せっかくだから、色んなポーズで撮りたいんだけど……いいかな？",
+          "body": "ルリちゃん……せっかくだから\n色んなポーズで撮りたいんだけど……\nいいかな？",
           "displayMode": "adv",
           "charSpeed": 40,
           "charMediaList": [
@@ -1628,7 +1627,7 @@
         },
         {
           "speaker": "",
-          "body": "めんどくさいなぁ、、、 まあ、追加料金もらってるし…… しょうがないか、、、簡単なやつだけだからね。",
+          "body": "めんどくさいなぁ....   まあ  追加料金もらってるし....\nしょうがないか....  簡単なやつだけだからね！",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_34_1.wav",
           "charMediaList": [
@@ -1653,7 +1652,9 @@
       },
       "groupId": "group_1775828145657",
       "done": true,
-      "transitionDuration": 400
+      "transitionDuration": 400,
+      "bgmLoop": true,
+      "bgmVolume": 1
     },
     "node_e_12": {
       "id": "node_e_12",
@@ -5654,8 +5655,7 @@
       "idleSpeaker": "ルリ",
       "idleAudio": "assets/audio/node_e_22_ASMR_terererst.wav",
       "meterMode": "male",
-      "meterMaxSeconds": 60,
-      "hidden": true
+      "meterMaxSeconds": 60
     },
     "node_s_71": {
       "id": "node_s_71",
@@ -6970,6 +6970,7 @@
           "body": "やっぱり....\nオジ顔に出すぎだから",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/2.wav",
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -6989,6 +6990,7 @@
           "body": "何かコソコソ怪しかったから試しに足開いてみたら....\n凄い興奮した顔してて....",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/3.wav",
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -7008,6 +7010,7 @@
           "body": "ホント分かりやす過ぎ！\nそんな撮りたいなら３万円追加でくれるなら考えてあげてもいいけど...\nどうする？",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_02_4.wav",
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -7199,7 +7202,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "いや　だって　あんなものを見せられたら....",
+          "body": "いや　だって　あんなものを��せられたら....",
           "charSpeed": 40,
           "charMediaList": [
             {
@@ -7522,7 +7525,7 @@
       "thumbnail": "",
       "groupId": "group_1775828145657",
       "transition": "white-fade",
-      "transitionDuration": 400,
+      "transitionDuration": 1000,
       "idleMediaType": "video",
       "idleVideoFit": "cover",
       "idleVideoScale": 0.7,
@@ -9601,7 +9604,7 @@
         "posX": 50,
         "posY": 50
       },
-      "idleVideo": "assets/videos/node_e_30_grok-video-862edf60-0250-4f87-9dec-5e144ac54335 - Trim_1.mp4",
+      "idleVideo": "projects/���瀬瑠璃/assets/videos/node_e_30_grok-video-862edf60-0250-4f87-9dec-5e144ac54335 - Trim_1.mp4",
       "actions": [
         {
           "id": "act1",
@@ -11752,6 +11755,7 @@
               "scale": 1.3,
               "posX": 51,
               "posY": 53,
+              "enterEffect": "whitein",
               "blurBg": true
             }
           ]
@@ -11761,6 +11765,7 @@
           "body": "まぁ勝手にすれば？",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_19_1.wav",
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -11779,6 +11784,7 @@
           "speaker": "オジ",
           "body": "それでは...\nあぁ堪らないなぁ\nルーズソックスってこんな感じになっているんだね",
           "charSpeed": 40,
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -11797,6 +11803,7 @@
           "speaker": "オジ",
           "body": "ふくらはぎもツヤツヤしているねぇ",
           "charSpeed": 40,
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -11807,10 +11814,6 @@
               "posX": 52,
               "posY": 66,
               "enterEffect": "fade",
-              "motion": {
-                "kind": "zoom-in",
-                "speed": "normal"
-              },
               "blurBg": true
             }
           ]
@@ -11819,6 +11822,7 @@
           "speaker": "オジ",
           "body": "太ももなんてすごい弾力があるよ",
           "charSpeed": 40,
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -11829,10 +11833,6 @@
               "posX": 47,
               "posY": 48,
               "enterEffect": "fade",
-              "motion": {
-                "kind": "zoom-in",
-                "speed": "normal"
-              },
               "blurBg": true
             }
           ]
@@ -11841,6 +11841,7 @@
           "speaker": "オジ",
           "body": "こっちはどうなってるのかな？",
           "charSpeed": 40,
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -11859,6 +11860,7 @@
           "speaker": "オジ",
           "body": "（結構責めてる感じだけど　特に反応も無いし　触るにはダメでは無いのかも...）",
           "charSpeed": 40,
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -11877,6 +11879,7 @@
           "speaker": "オジ",
           "body": "（とりあえず撮っておかないと..\n次はどうしようかな...）",
           "charSpeed": 40,
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -12018,7 +12021,7 @@
         "speedControl": true,
         "lockMeter": true
       },
-      "nextNodeId": "node_end_02",
+      "nextNodeId": "node_e_59_copy2217",
       "thumbnail": "",
       "groupId": "group_1775828145657",
       "transition": "fade",
@@ -18540,8 +18543,7 @@
         "enabled": false,
         "autoMove": false
       },
-      "done": true,
-      "hidden": true
+      "done": true
     },
     "node_s_67": {
       "id": "node_s_67",
@@ -18977,6 +18979,428 @@
       "bgmLoop": true,
       "bgmVolume": 0.75,
       "bgm": "assets/audio/node_s_01_copy6403_copy1591_grok-video-67d0ffdb-6931-49d4-93f2-55b5e22a8eeb.mp3"
+    },
+    "node_s_20_copy7285": {
+      "id": "node_s_20_copy7285",
+      "type": "story",
+      "pos": [
+        -280,
+        230
+      ],
+      "title": "オープニング",
+      "background": {
+        "type": "image",
+        "src": "",
+        "loop": false,
+        "audioOn": false,
+        "fit": "cover",
+        "scale": 1,
+        "posX": 50,
+        "posY": 50
+      },
+      "transition": "white-fade",
+      "text": [
+        {
+          "speaker": "？？？",
+          "body": "「あっ……あんっ！　オジ　激しすぎ……っ！\nはぁん……！　だめぇ……イっちゃう……！」",
+          "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_s_20_1.wav",
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "assets/videos/node_s_20_SeaArt  ComfyUI_00002.mp4",
+              "loop": "loop",
+              "fit": "cover",
+              "scale": 2.1,
+              "posX": 51,
+              "posY": 39,
+              "blurBg": true
+            }
+          ]
+        },
+        {
+          "speaker": "キヨシ",
+          "body": "何度回帰したか知らないが　今回はかなりいいぞ！\nルリちゃんの締め付け　最高に気持ちいい……\nでもこれだと一回限りの関係に終わってしまう！\n勿体ないが……回帰するか……",
+          "displayMode": "nvl",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "assets/videos/node_s_20_ai-artwork-video_d3d87fdf-a8b4-4739-8fd7-ef5af89e5562.mp4",
+              "loop": "loop",
+              "fit": "cover",
+              "scale": 2.55,
+              "posX": 51,
+              "posY": 49,
+              "enterEffect": "fade",
+              "blurBg": true
+            }
+          ]
+        },
+        {
+          "speaker": "",
+          "body": "（次はもっと上手くやるぞ....）",
+          "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_s_20_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1 (2).mp4",
+          "charMediaMode": "add",
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "assets/videos/node_s_20_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1 (2).mp4",
+              "loop": "none",
+              "fit": "cover",
+              "scale": 1.2,
+              "posX": 50,
+              "posY": 50,
+              "enterEffect": "fade",
+              "blurBg": true
+            }
+          ]
+        }
+      ],
+      "nextNodeId": "node_home_copy1132",
+      "thumbnail": "",
+      "groupId": "group_1780116319259",
+      "memo": "【①シーン：ホテルでのセックスシーン（クライマックス）】\n（激しい喘ぎ声が響くラブホテル。瑠璃がベッドの上で仰向けにされ、オジに激しく突かれている。）\n瑠璃\n「あっ……あんっ！　オジ、激しすぎ……っ���\nはぁん……！　もう……イっちゃう……！」\nオジ\n（腰を振りながら、内心で）\n「何度回帰したか知らないが、今回はかなりいいぞ！\nルリちゃんの締め付け、最高に気持ちいい……\nでもこれだと一回限りの関係に終わってしまう！\n勿体ない……このままじゃまた同じ失敗を繰り返すだけだ。\nやり直すか……」\n（オジは瑠璃が絶頂に達した直後、目を閉じて心の中でチェックポイントを更新する。）\n画面効果：激しい白フラッシュ＋低く響く回帰音",
+      "move": {
+        "enabled": false,
+        "autoMove": false
+      },
+      "transitionDuration": 700,
+      "done": true,
+      "bgmLoop": true,
+      "bgmVolume": 1
+    },
+    "node_home_copy1132": {
+      "id": "node_home_copy1132",
+      "type": "home",
+      "pos": [
+        -70,
+        250
+      ],
+      "title": "",
+      "subtitle": "",
+      "background": {
+        "type": "video",
+        "src": "assets/videos/node_home_grok-video-a4173706-828a-4803-9d69-94d6a0ff6d26.mp4",
+        "loop": false,
+        "audioOn": true,
+        "fit": "cover",
+        "scale": 1,
+        "posX": 50,
+        "posY": 50
+      },
+      "nextNodeId": "node_s_74",
+      "thumbnail": "",
+      "groupId": "group_1780116319259",
+      "bgm": "assets/audio/node_home_Turn Back Clock.mp3"
+    },
+    "node_s_68": {
+      "id": "node_s_68",
+      "type": "story",
+      "pos": [
+        360,
+        250
+      ],
+      "title": "作品コンセプト",
+      "background": {
+        "type": "image",
+        "src": "",
+        "fit": "cover",
+        "scale": 1,
+        "posX": 50,
+        "posY": 50,
+        "loop": false,
+        "audioOn": false
+      },
+      "transition": "fade",
+      "text": [
+        {
+          "speaker": "",
+          "body": "回帰の力で　　好きな場所、好きなプレイでヤリまくる！！\nバック　ソファ",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        },
+        {
+          "speaker": "",
+          "body": "公衆トイレ　便座上　セックス",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        },
+        {
+          "speaker": "",
+          "body": "ベッド　半裸　正常位",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        }
+      ],
+      "nextNodeId": "node_s_69",
+      "thumbnail": "",
+      "groupId": "group_1780116319259",
+      "memo": "作品コンセプト\nテンポよく短いカットで3〜4シーンの切り替え\n正常位（ソファ）\nバック\n電話中NTR\n\nテロップ（短く太く）：\n「パパ活JKを何度でもヤリ直せ」\n「寝取られ・責められ・完全肉便器化」",
+      "bgmLoop": true,
+      "bgmVolume": 1,
+      "transitionDuration": 400,
+      "move": {
+        "enabled": false,
+        "autoMove": false
+      }
+    },
+    "node_s_69": {
+      "id": "node_s_69",
+      "type": "story",
+      "pos": [
+        580,
+        260
+      ],
+      "title": "売り特徴",
+      "background": {
+        "type": "image",
+        "src": "",
+        "fit": "cover",
+        "scale": 1,
+        "posX": 50,
+        "posY": 50,
+        "loop": false,
+        "audioOn": false
+      },
+      "transition": "fade",
+      "text": [
+        {
+          "speaker": "",
+          "body": "あばたの選択でプレイが変わる\nトイレおしっこ",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        },
+        {
+          "speaker": "",
+          "body": "あばたの選択でプレイが変わる\nNTR",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        },
+        {
+          "speaker": "",
+          "body": "時には責められ、時には眠らせ、時にはNTR\n足コキ",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        },
+        {
+          "speaker": "",
+          "body": "素股",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        }
+      ],
+      "nextNodeId": "node_s_70",
+      "thumbnail": "",
+      "groupId": "group_1780116319259",
+      "memo": "シーン説明\n足コキ → 眠らせ手マン → NTR電話中の短い動画\n\nテロップ：\n「あなたの選択でプレイが変わる」\n「時には責められ、時には眠らせ、時にはNTR」",
+      "bgmLoop": true,
+      "bgmVolume": 1,
+      "transitionDuration": 400,
+      "move": {
+        "enabled": false,
+        "autoMove": false
+      }
+    },
+    "node_s_70": {
+      "id": "node_s_70",
+      "type": "story",
+      "pos": [
+        810,
+        260
+      ],
+      "title": "機能紹介",
+      "background": {
+        "type": "image",
+        "src": "",
+        "fit": "cover",
+        "scale": 1,
+        "posX": 50,
+        "posY": 50,
+        "loop": false,
+        "audioOn": false
+      },
+      "transition": "fade",
+      "text": [
+        {
+          "speaker": "",
+          "body": "『モーションスピード調整でイカせろ！』\nラブメーター機能：ラブメーターがどんどん溜まっていく画面",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        },
+        {
+          "speaker": "",
+          "body": "モーションスピード調整：速くしてメーターが爆速で上がるデモ",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        },
+        {
+          "speaker": "",
+          "body": "「サイズ・位置も自由自在」\nサイズ・画面位置調整：",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        }
+      ],
+      "nextNodeId": "node_s_73",
+      "thumbnail": "",
+      "groupId": "group_1780116319259",
+      "memo": "満足度メーターがどんどん溜まっていく画面\nモーションスピードを速くしてメーターが爆速で上がるデモ\nサイズ・画面位置調整のデモ（短めに2つ）\nテロップ：\n「モーションスピード調整でイカせろ！」\n「サイズ・位置も自由自在」",
+      "bgmLoop": true,
+      "bgmVolume": 1,
+      "transitionDuration": 400,
+      "move": {
+        "enabled": false,
+        "autoMove": false
+      }
+    },
+    "node_s_73": {
+      "id": "node_s_73",
+      "type": "story",
+      "pos": [
+        1030,
+        250
+      ],
+      "title": "締め",
+      "background": {
+        "type": "image",
+        "src": "",
+        "fit": "cover",
+        "scale": 1,
+        "posX": 50,
+        "posY": 50,
+        "loop": false,
+        "audioOn": false
+      },
+      "transition": "fade",
+      "text": [
+        {
+          "speaker": "",
+          "body": "「目指せ！ JKの完全セフレ化」　イっているいる動画",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        },
+        {
+          "speaker": "",
+          "body": "タイトル表示",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        }
+      ],
+      "nextNodeId": "",
+      "thumbnail": "",
+      "groupId": "group_1780116319259",
+      "memo": "ヒロインの完全デレ＋絶頂顔（一番エロい表情）\nテロップ：\n「目指せ！ JKの完全セフレ化」\n\nタイトル再表示＋「体験版プレイ中」",
+      "bgmLoop": true,
+      "bgmVolume": 1,
+      "transitionDuration": 400,
+      "move": {
+        "enabled": false,
+        "autoMove": false
+      }
+    },
+    "node_s_74": {
+      "id": "node_s_74",
+      "type": "story",
+      "pos": [
+        150,
+        250
+      ],
+      "title": "キャラ紹介",
+      "background": {
+        "type": "image",
+        "src": ""
+      },
+      "bgm": "",
+      "transition": "fade",
+      "text": [
+        {
+          "body": "……",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        }
+      ],
+      "nextNodeId": "node_s_68",
+      "thumbnail": "",
+      "groupId": "group_1780116319259"
     }
   },
   "groups": [
@@ -19062,8 +19486,6 @@
         "node_e_57",
         "node_e_58",
         "node_s_63",
-        "node_s_69",
-        "node_s_70",
         "node_s_71",
         "node_e_01",
         "node_e_02",
@@ -19270,8 +19692,7 @@
         "node_s_02",
         "node_s_01_copy3137_copy1955",
         "node_s_01_copy3137",
-        "node_s_53",
-        "node_s_68"
+        "node_s_53"
       ],
       "collapsed": false,
       "manualRect": [
@@ -19344,6 +19765,27 @@
         -452.22074939375216,
         937.4667348384219,
         529.8599872264948
+      ]
+    },
+    {
+      "id": "group_1780116319259",
+      "name": "samplemove",
+      "description": "",
+      "nodeIds": [
+        "node_s_68",
+        "node_s_20_copy7285",
+        "node_home_copy1132",
+        "node_s_69",
+        "node_s_70",
+        "node_s_73",
+        "node_s_74"
+      ],
+      "collapsed": false,
+      "manualRect": [
+        -343.4002690636108,
+        86.39099589462728,
+        1591.9431038277564,
+        689.0908349846717
       ]
     }
   ],
