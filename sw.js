@@ -33,13 +33,17 @@ self.addEventListener('fetch', (event) => {
     if (url.pathname.startsWith('/api/')) return;
 
     // メディアアセット → キャッシュファースト
+    // ※ Range リクエスト（動画シーク等）は 206 Partial Content を返すため
+    //    Cache API の put() が拒否する。Range ヘッダー付きリクエストはキャッシュをスキップ。
     if (CACHEABLE_EXT.test(url.pathname)) {
+        // Range リクエストはキャッシュ不可（206 レスポンス）
+        if (event.request.headers.get('range')) return;
         event.respondWith(
             caches.open(CACHE_NAME).then(cache =>
                 cache.match(event.request).then(cached => {
                     if (cached) return cached;
                     return fetch(event.request).then(response => {
-                        if (response.ok) {
+                        if (response.ok && response.status === 200) {
                             cache.put(event.request, response.clone());
                         }
                         return response;
