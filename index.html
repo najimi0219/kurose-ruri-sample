@@ -81,11 +81,16 @@
         <button id="btn-gallery-back" class="btn btn-icon">←</button>
         <h2>解放一覧</h2>
       </div>
-      <div class="gallery-canvas-wrap" id="gallery-wrap">
-        <div class="gallery-canvas" id="gallery-canvas">
-          <!-- SVG for connections -->
-          <svg class="gallery-svg" id="gallery-svg"></svg>
-          <!-- Node cards and group boxes rendered by JS -->
+      <!-- 解放率 -->
+      <div class="gallery-progress">
+        <div class="gallery-progress-track"><div id="gallery-progress-fill"></div></div>
+        <div id="gallery-progress-text" class="gallery-progress-text"></div>
+      </div>
+      <!-- アルバム（通過順タイル） -->
+      <div class="gallery-grid-wrap">
+        <div class="gallery-grid" id="gallery-grid"></div>
+        <div id="gallery-empty" class="gallery-empty" hidden>
+          まだ解放されたシーンがありません。<br>プレイすると、通ったシーンがここに追加されます。
         </div>
       </div>
     </section>

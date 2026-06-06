@@ -32,8 +32,8 @@
       "id": "node_s_01_copy6403",
       "type": "story",
       "pos": [
-        1190,
-        1120
+        1150,
+        1170
       ],
       "title": "出逢い2",
       "background": {
@@ -50,7 +50,7 @@
       "text": [
         {
           "speaker": "キヨシ",
-          "body": "（あ　あれだ…間違いない　\n写真より実物の方が全然いいじゃないか。\nヤバい　すでに興奮してきた..）\n",
+          "body": "（あ　あれだ…間違いない）\n（写真より実物の方が全然いいじゃないか...）\n（ヤバい　すでに興奮してきた..）\n",
           "displayMode": "adv",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_01_copy6403_grok-video-3b0a06a5-327d-43f4-9e20-02aa56a5b349.mp3",
@@ -99,6 +99,7 @@
               "scale": 1,
               "posX": 50,
               "posY": 50,
+              "enterEffect": "fade",
               "blurBg": true
             }
           ]
@@ -327,7 +328,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "あっ　もちろんだよ！！\n（.....こんな可愛いと出会えるチャンスなかなか無いぞ....）\n（何もせずにお別れとか寒すぎる.......）\nどうしたものか）",
+          "body": "あっ　もちろんだよ！！\n（こんな可愛いと出会えるチャンスなかなか無いぞ....）\n（何もせずにお別れとか寒すぎる.......）\n（まぁダメだったら回帰すればいいか）",
           "displayMode": "adv",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_01_copy6403_grok-video-3b0a06a5-327d-43f4-9e20-02aa56a5b349.mp3",
@@ -502,8 +503,8 @@
       "id": "node_s_01_copy3137",
       "type": "story",
       "pos": [
-        1770,
-        1540
+        1830,
+        1490
       ],
       "title": "カフェ1",
       "background": {
@@ -684,8 +685,8 @@
       "id": "node_s_27",
       "type": "story",
       "pos": [
-        2950,
-        1540
+        3010,
+        1400
       ],
       "title": "ホテルにて",
       "background": {
@@ -706,6 +707,7 @@
           "displayMode": "nvl",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_27_grok-video-86cd924e-d978-4856-aa96-34cf4392a3c8_2.mp3",
+          "voiceLoop": true,
           "charMediaList": [
             {
               "type": "image",
@@ -723,7 +725,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（よし、とりあえず何はともあれホテルまで行くことができたぞ！！\n今から色んな撮影できるとなると興奮がヤバいな...）",
+          "body": "（よし、とりあえず何はともあれホテルまで行くことができた！！）\n（今から色んな撮影できるとなると興奮がヤバいな...）",
           "charSpeed": 40,
           "charMediaList": [
             {
@@ -765,7 +767,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "あっ...分かったよ\n（てっきり『撮影会』って言ったら、こっちが指示するポーズいっぱい取ってくれると思ってたのに……\nただスマホいじりながら休憩したかっただけか....\nまあ……それでもパンティ見える距離で撮り放題って状況は変わらないけど。\nこのまま終わるぐらいだったら.....)",
+          "body": "あっ...分かったよ\n（てっきり『撮影会』って言ったら、こっちが指示するポーズいっぱい取ってくれると思ってたのに……）\n（ただスマホいじりながら休憩したかっただけか....）\n（まあ……それでもパンティ見える距離で撮り放題って状況は変わらないけど）\n（でも...このまま終わるぐらいだったら.....)",
           "displayMode": "adv",
           "charSpeed": 40,
           "charMediaList": [
@@ -5684,7 +5686,8 @@
       "idleSpeaker": "ルリ",
       "idleAudio": "assets/audio/node_e_22_ASMR_terererst.wav",
       "meterMode": "male",
-      "meterMaxSeconds": 60
+      "meterMaxSeconds": 60,
+      "hidden": true
     },
     "node_s_71": {
       "id": "node_s_71",
@@ -6616,8 +6619,8 @@
       "id": "node_s_01_copy3137_copy1955",
       "type": "story",
       "pos": [
-        1990,
-        1530
+        2050,
+        1480
       ],
       "title": "カフェ2",
       "background": {
@@ -6630,7 +6633,7 @@
         "posX": 50,
         "posY": 50
       },
-      "bgm": "assets/audio/node_s_01_copy3137_copy1955_Background Sounds Of A Stylish Cafe. Stylish Bossa Nova-style Background Musi.mp3",
+      "bgm": "assets/audio/node_s_01_copy3137_copy1955_The Sounds Of A Hawaiian Cafe, A Tropical And Relaxed Groove, The Sounds Of T.mp3",
       "transition": "white-fade",
       "text": [
         {
@@ -6984,14 +6987,14 @@
       "done": true,
       "groupId": "group_1778414694895",
       "bgmLoop": true,
-      "bgmVolume": 0.17
+      "bgmVolume": 0.34
     },
     "node_s_02": {
       "id": "node_s_02",
       "type": "story",
       "pos": [
-        2270,
-        1520
+        2330,
+        1470
       ],
       "title": "謝罪",
       "background": {
@@ -7004,7 +7007,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_02_Background Sounds Of A Stylish Cafe. Stylish Bossa Nova-style Background Musi.mp3",
+      "bgm": "assets/audio/node_s_02_The Sounds Of A Hawaiian Cafe, A Tropical And Relaxed Groove, The Sounds Of T.mp3",
       "transition": "white-fade",
       "text": [
         {
@@ -7106,14 +7109,14 @@
       "done": true,
       "groupId": "group_1778414694895",
       "bgmLoop": true,
-      "bgmVolume": 0.21
+      "bgmVolume": 0.37
     },
     "node_s_03": {
       "id": "node_s_03",
       "type": "story",
       "pos": [
-        2470,
-        1820
+        2530,
+        1770
       ],
       "title": "１万円だけ払う",
       "background": {
@@ -7312,8 +7315,8 @@
       "id": "node_s_02_copy1476",
       "type": "story",
       "pos": [
-        2610,
-        1510
+        2670,
+        1460
       ],
       "title": "撮影会の場所決め",
       "background": {
@@ -7326,7 +7329,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_02_copy1476_Background Sounds Of A Stylish Cafe. Stylish Bossa Nova-style Background Musi.mp3",
+      "bgm": "assets/audio/node_s_02_copy1476_The Sounds Of A Hawaiian Cafe, A Tropical And Relaxed Groove, The Sounds Of T.mp3",
       "transition": "fade",
       "text": [
         {
@@ -7616,7 +7619,7 @@
       "id": "node_s_04",
       "type": "story",
       "pos": [
-        4510,
+        4440,
         2840
       ],
       "title": "撮影会後",
@@ -10243,8 +10246,8 @@
       "id": "node_e_62",
       "type": "event",
       "pos": [
-        6150,
-        5750
+        6120,
+        5790
       ],
       "title": "素股/四つん這い",
       "background": {
@@ -11397,7 +11400,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_20_node_s_20_SeaArt  ComfyUI_00002_1.mp4",
+              "src": "assets/videos/node_s_20_node_s_20_SeaArt  ComfyUI_00002_1.webm",
               "loop": "loop",
               "fit": "cover",
               "scale": 2.1,
@@ -11834,6 +11837,7 @@
           "speaker": "オジ",
           "body": "ちょっとルーズソックス触ってもいいかな？",
           "charSpeed": 40,
+          "voiceLoop": true,
           "charMediaList": [
             {
               "type": "video",
@@ -11873,6 +11877,8 @@
           "speaker": "オジ",
           "body": "それでは...\nあぁ....堪らないなぁ\nルーズソックスってこんな感じになっているんだね",
           "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_s_19_suberasu.wav",
+          "voiceLoop": true,
           "charMediaMode": "add",
           "charMediaList": [
             {
@@ -11892,6 +11898,8 @@
           "speaker": "オジ",
           "body": "ふくらはぎもツヤツヤしているねぇ",
           "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_s_19_suberasu.wav",
+          "voiceLoop": true,
           "charMediaMode": "add",
           "charMediaList": [
             {
@@ -11911,6 +11919,8 @@
           "speaker": "オジ",
           "body": "太ももなんてすごい弾力があるよ",
           "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_s_19_suberasu.wav",
+          "voiceLoop": true,
           "charMediaMode": "add",
           "charMediaList": [
             {
@@ -11930,6 +11940,8 @@
           "speaker": "オジ",
           "body": "こっちはどうなってるのかな？",
           "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_s_19_suberasu.wav",
+          "voiceLoop": true,
           "charMediaMode": "add",
           "charMediaList": [
             {
@@ -11949,6 +11961,8 @@
           "speaker": "オジ",
           "body": "（結構責めてる感じだけど　特に反応も無いし　触るのはダメで無いのかも...）",
           "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_s_19_suberasu.wav",
+          "voiceLoop": true,
           "charMediaMode": "add",
           "charMediaList": [
             {
@@ -13172,6 +13186,8 @@
           "speaker": "オジ",
           "body": "あはは...\nいや　今日ちょっと歩いたし疲れているかと思って\nマッサージしてあげようかなと思って...",
           "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_s_24_suberasu.wav",
+          "voiceLoop": true,
           "charMediaList": [
             {
               "type": "video",
@@ -13190,6 +13206,8 @@
           "speaker": "オジ",
           "body": "どう？\nこの股関節のストレッチとか効くでしょ？",
           "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_s_24_suberasu.wav",
+          "voiceLoop": true,
           "charMediaMode": "add",
           "charMediaList": [
             {
@@ -16165,8 +16183,8 @@
       "id": "node_s_53",
       "type": "story",
       "pos": [
-        2150,
-        1800
+        2210,
+        1750
       ],
       "title": "スマホを見ていた言い訳",
       "background": {
@@ -16179,7 +16197,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_53_Background Sounds Of A Stylish Cafe. Stylish Bossa Nova-style Background Musi.mp3",
+      "bgm": "assets/audio/node_s_53_The Sounds Of A Hawaiian Cafe, A Tropical And Relaxed Groove, The Sounds Of T.mp3",
       "transition": "fade",
       "text": [
         {
@@ -18149,8 +18167,8 @@
       "id": "node_e_59_copy2217",
       "type": "event",
       "pos": [
-        5610,
-        5750
+        5510,
+        5780
       ],
       "title": "手マン/四つん這い",
       "background": {
@@ -18899,7 +18917,7 @@
           "finishMediaScale": 1,
           "finishMediaPosX": 50,
           "finishMediaPosY": 50,
-          "nextNodeId": "node_e_22"
+          "nextNodeId": "node_e_02"
         }
       ],
       "meter": {
@@ -18990,8 +19008,8 @@
       "id": "node_s_01_copy6403_copy1591",
       "type": "story",
       "pos": [
-        910,
-        1120
+        900,
+        1170
       ],
       "title": "出逢い1",
       "background": {
@@ -19084,7 +19102,7 @@
       "done": true,
       "bgmLoop": true,
       "bgmVolume": 0.75,
-      "bgm": "assets/audio/node_s_01_copy6403_copy1591_grok-video-67d0ffdb-6931-49d4-93f2-55b5e22a8eeb.mp3"
+      "bgm": "assets/audio/node_s_01_copy6403_copy1591_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3"
     },
     "node_s_20_copy7285": {
       "id": "node_s_20_copy7285",
@@ -19706,8 +19724,8 @@
       "manualRect": [
         40,
         1106,
-        1304.2295127237055,
-        302.19720349374364
+        1352.024203447145,
+        305.3835019470063
       ]
     },
     {
@@ -19802,8 +19820,8 @@
       ],
       "collapsed": false,
       "manualRect": [
-        1385.093076108592,
-        1191.665428086818,
+        1444.098735073024,
+        1140.527172710689,
         1431.2040869680077,
         1219.004338719108
       ]
@@ -19817,8 +19835,8 @@
       ],
       "collapsed": false,
       "manualRect": [
-        2844.228272833814,
-        1508.2338769847483,
+        2905.3790040946838,
+        1369.8400513691843,
         400,
         300
       ]
