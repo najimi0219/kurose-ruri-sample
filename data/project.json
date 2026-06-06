@@ -9,7 +9,7 @@
       "type": "home",
       "pos": [
         70,
-        1178.5
+        1180
       ],
       "title": "",
       "subtitle": "",
@@ -64,7 +64,7 @@
               "scale": 2,
               "posX": 35,
               "posY": 65,
-              "enterEffect": "fade",
+              "enterEffect": "whitein",
               "exitEffect": "whiteout",
               "motion": {
                 "kind": "pan-v",
@@ -245,7 +245,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（よし\nこれで後はこの子を俺の自由にできるのか....\nこんなカワイイ子を好きにできるなんて....）",
+          "body": "（よし……これで後はこの子を俺の自由にできるのか）\n（こんな可愛い子を好きにできるなんて……）\n（何度でもやり直し　徹底的に堕としてやる……）",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_01_copy6403_grok-video-3b0a06a5-327d-43f4-9e20-02aa56a5b349.mp3",
           "charMediaMode": "add",
@@ -327,7 +327,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "あっ　もちろんだよ！！\n（.....こんな可愛いと出会えるチャンスなかなか無いぞ....\n何もせずにお別れとか寒すぎる.......\nどうしたものか）",
+          "body": "あっ　もちろんだよ！！\n（.....こんな可愛いと出会えるチャンスなかなか無いぞ....）\n（何もせずにお別れとか寒すぎる.......）\nどうしたものか）",
           "displayMode": "adv",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_01_copy6403_grok-video-3b0a06a5-327d-43f4-9e20-02aa56a5b349.mp3",
@@ -502,8 +502,8 @@
       "id": "node_s_01_copy3137",
       "type": "story",
       "pos": [
-        1720,
-        1510
+        1770,
+        1540
       ],
       "title": "カフェ1",
       "background": {
@@ -570,7 +570,8 @@
       "done": true,
       "groupId": "group_1778414694895",
       "bgmLoop": true,
-      "bgmVolume": 1
+      "bgmVolume": 0.34,
+      "bgm": "assets/audio/node_s_01_copy3137_grok-video-3b0a06a5-327d-43f4-9e20-02aa56a5b349.mp3"
     },
     "node_e_04": {
       "id": "node_e_04",
@@ -701,7 +702,7 @@
       "text": [
         {
           "speaker": "",
-          "body": "～ホテルにて～\n",
+          "body": "{b}{s:30}～ホテルにて～{/s}{/b}\n",
           "displayMode": "nvl",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_27_grok-video-86cd924e-d978-4856-aa96-34cf4392a3c8_2.mp3",
@@ -1648,6 +1649,7 @@
           "body": "めんどくさいなぁ....   まあ  追加料金もらってるし....\nしょうがないか....  簡単なやつだけだからね！",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_34_1.wav",
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -1657,6 +1659,10 @@
               "scale": 3.1,
               "posX": 44,
               "posY": 26,
+              "motion": {
+                "kind": "pan-v",
+                "speed": "normal"
+              },
               "blurBg": true
             }
           ]
@@ -1995,7 +2001,7 @@
       "text": [
         {
           "speaker": "",
-          "body": "（はぁ...俺も意気地なしだな\n玄関で襲うことも考えたけど、できなかった....）",
+          "body": "（はぁ...俺も意気地なしだな）\n（玄関で襲うことも考えたけど　できなかった....）",
           "charSpeed": 40,
           "charMediaList": [
             {
@@ -2017,7 +2023,7 @@
         },
         {
           "speaker": "",
-          "body": "（撮影って言ってもスマホいじってるだけだしなぁ...\nこの太ももとかだけでも最高は最高なのだがな）",
+          "body": "（撮影って言ってもスマホいじってるだけだしなぁ...）\n（この太ももとかだけでも最高は最高なのだがな）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -2030,13 +2036,17 @@
               "posX": 50,
               "posY": 61,
               "enterEffect": "fade",
+              "motion": {
+                "kind": "pan-down",
+                "speed": "normal"
+              },
               "blurBg": true
             }
           ]
         },
         {
           "speaker": "",
-          "body": "（うほっ！\nルリちゃんって股のガード緩いよな....クラスメートはいつもパンチラ拝めてそうだな...\n羨ましすぎる...）",
+          "body": "（うほっ！）\n（ルリちゃんって股のガード緩いよな....クラスメートはいつもパンチラ拝めてそうだな...）\n（羨ましすぎる...）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -2046,17 +2056,21 @@
               "loop": "none",
               "duration": 3,
               "fit": "cover",
-              "scale": 1.3,
-              "posX": 50,
-              "posY": 61,
+              "scale": 2.35,
+              "posX": 49,
+              "posY": 25,
               "enterEffect": "fade",
+              "motion": {
+                "kind": "zoom-in",
+                "speed": "normal"
+              },
               "blurBg": true
             }
           ]
         },
         {
           "speaker": "",
-          "body": "（はっ！！\nパンツに見とれている場合じゃなかった....\n時間も無いし撮影に入ろう！）",
+          "body": "（はっ！！　パンツに見とれている場合じゃなかった....）\n（時間も無いし撮影に入ろう！）",
           "charSpeed": 40,
           "usePrevMedia": true,
           "charMediaList": [
@@ -6268,12 +6282,12 @@
         1770
       ],
       "background": {
-        "type": "image",
-        "src": "assets/images/home_bg.avif",
-        "loop": false,
-        "audioOn": false,
+        "type": "video",
+        "src": "assets/videos/bad_end_grok-video-9faf0738-8c6f-4243-8e7e-d928573df66f.mp4",
+        "loop": true,
+        "audioOn": true,
         "fit": "cover",
-        "scale": 1,
+        "scale": 1.45,
         "posX": 50,
         "posY": 50
       },
@@ -6281,7 +6295,30 @@
       "nextNodeId": null,
       "thumbnail": "",
       "groupId": "group_1778354366777",
-      "title": "逃げられた"
+      "title": "逃げられた",
+      "transition": "fade",
+      "transitionDuration": 400,
+      "text": [
+        {
+          "speaker": "",
+          "body": "",
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "assets/videos/bad_end_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1.mp4",
+              "loop": "none",
+              "fit": "cover",
+              "scale": 1,
+              "posX": 50,
+              "posY": 50,
+              "enterEffect": "whitein",
+              "blurBg": true,
+              "audioOn": true
+            }
+          ]
+        }
+      ],
+      "choices": []
     },
     "node_s_01": {
       "id": "node_s_01",
@@ -6579,8 +6616,8 @@
       "id": "node_s_01_copy3137_copy1955",
       "type": "story",
       "pos": [
-        1940,
-        1500
+        1990,
+        1530
       ],
       "title": "カフェ2",
       "background": {
@@ -6598,7 +6635,7 @@
       "text": [
         {
           "speaker": "",
-          "body": "パンケーキ屋にて....",
+          "body": "{b}{s:30}パンケーキ店にて...{/s}{/b}",
           "displayMode": "nvl",
           "charSpeed": 40,
           "charMediaList": [
@@ -6695,7 +6732,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（スマホに夢中で全然話聞いてないな…\nでも　これは逆にパンチラとか撮れちゃうんじゃないか？\n今のうちにテーブルの下から撮っておくか...........）",
+          "body": "スマホに夢中で全然話聞いてないな…\nでも　これは逆にパンチラとか撮れちゃうんじゃないか？\n今のうちにテーブルの下から撮っておくか...........",
           "displayMode": "nvl",
           "charSpeed": 40,
           "usePrevMedia": true,
@@ -6736,7 +6773,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（クッ...\n股のガードが堅いな.........\nもうちょっと粘るか.）",
+          "body": "（クッ...股のガードが堅いな.........）\n（もうちょっと粘るか）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -6760,7 +6797,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（おっ！！\nやっとガードを崩したぞ！）",
+          "body": "（おっ！！　　　やっとガードを崩したぞ！）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -6783,7 +6820,7 @@
         },
         {
           "speaker": "ルリ",
-          "body": "（そのままズームしてっと....\nあぁこの太ももとパンティの破壊力は凄まじいぞ.....)\n",
+          "body": "（そのままズームしてっと....）\n（あぁ....この太ももとパンティの破壊力は凄まじいぞ.....)\n",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -6802,7 +6839,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "ただ　このままだと帰られてしまうし　何かしら打開策を打たねば.....）",
+          "body": "(ただ　このままだと帰られてしまうし　何かしら打開策を打たねば.....）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -6826,7 +6863,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（！？..................\nこんな大胆に開いて　どうしたんだ？）",
+          "body": "（！？.............こんな大胆に開いて　どうしたんだ？）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -6947,14 +6984,14 @@
       "done": true,
       "groupId": "group_1778414694895",
       "bgmLoop": true,
-      "bgmVolume": 0.29
+      "bgmVolume": 0.17
     },
     "node_s_02": {
       "id": "node_s_02",
       "type": "story",
       "pos": [
-        2220,
-        1490
+        2270,
+        1520
       ],
       "title": "謝罪",
       "background": {
@@ -7075,8 +7112,8 @@
       "id": "node_s_03",
       "type": "story",
       "pos": [
-        2420,
-        1790
+        2470,
+        1820
       ],
       "title": "１万円だけ払う",
       "background": {
@@ -7275,8 +7312,8 @@
       "id": "node_s_02_copy1476",
       "type": "story",
       "pos": [
-        2560,
-        1480
+        2610,
+        1510
       ],
       "title": "撮影会の場所決め",
       "background": {
@@ -7593,12 +7630,11 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "",
       "transition": "fade",
       "text": [
         {
           "speaker": "オジ",
-          "body": "（はぁはぁ、何だかんだいろんなポーズを取ってくれてたくさんパンチラも取れたな...\nただ、あと30分しかない....\nこのあたりで勝負をかけないとな......）",
+          "body": "（何だかんだいろんなポーズを取ってくれてたくさんパンチラも取れたな...）\n（ただ　あと30分しかない....）\n（このあたりで勝負をかけないとな......）",
           "charSpeed": 40,
           "charMediaList": [
             {
@@ -7615,19 +7651,22 @@
         },
         {
           "speaker": "ルリ",
-          "body": "あっ！\nちょっと彼氏から電話来てるんだけど、出てもいい？",
+          "body": "あっ！\nちょっと彼氏から電話来てるんだけど...出てもいい？",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_04_1.wav",
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_04_grok-video-092d36bc-7ef7-4104-91aa-898d3a6803e6 (1).mp4",
+              "src": "assets/videos/node_s_04_node_s_04_grok-video-092d36bc-7ef7-4104-91aa-898d3a6803e6 (1).mp4",
               "loop": "none",
               "fit": "cover",
               "scale": 1.65,
               "posX": 49,
               "posY": 76,
-              "blurBg": true
+              "enterEffect": "fade",
+              "blurBg": true,
+              "audioOn": true
             }
           ]
         }
@@ -7644,12 +7683,18 @@
         {
           "label": "電話を切らせる",
           "nextNodeId": "node_s_07"
+        },
+        {
+          "label": "撮影会まで回帰する",
+          "nextNodeId": "node_e_18"
         }
       ],
       "move": {
         "enabled": false,
         "autoMove": false
-      }
+      },
+      "bgmLoop": true,
+      "bgmVolume": 1
     },
     "node_s_05": {
       "id": "node_s_05",
@@ -7694,6 +7739,7 @@
           "body": "もしもし？　 \nうん、今ちょっと外にいるよ。\n 大丈夫。もう少しで終わるから。……友達とカフェにいるよ。",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_05_1.wav",
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -7710,7 +7756,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（ん？\n今電話しているってことは....今のうちに色々してしまえばルリちゃんは抵抗のしようがないのでは....）",
+          "body": "（今電話しているってことは....今のうちに色々してしまえば...)\n(ルリちゃんは抵抗のしようがないのでは....）",
           "charSpeed": 40,
           "charMediaList": [
             {
@@ -7738,6 +7784,10 @@
         {
           "label": "電話終わるまで我慢する",
           "nextNodeId": "node_s_06"
+        },
+        {
+          "label": "撮影会に回帰する",
+          "nextNodeId": "node_e_18"
         }
       ],
       "move": {
@@ -9856,7 +9906,8 @@
       },
       "done": true,
       "bgmLoop": true,
-      "bgmVolume": 1
+      "bgmVolume": 1,
+      "bgm": "assets/audio/node_s_10_suberasu.wav"
     },
     "node_e_60": {
       "id": "node_e_60",
@@ -10022,7 +10073,7 @@
       "speedRange": 0.3,
       "idleAudio": "assets/audio/node_e_60_kyoka.wav",
       "idleTextSpeed": 40,
-      "bgm": "assets/audio/node_e_60_momi.mp4",
+      "bgm": "assets/audio/node_e_60_suberasu.wav",
       "meterEnabled": false,
       "done": true,
       "idleText": "ねぇ　\n触るのは許可していないんだけど",
@@ -10052,7 +10103,7 @@
           "id": "act1",
           "label": "タッチ",
           "icon": "play",
-          "video": "assets/videos/node_e_59_momi.mp4",
+          "video": "assets/videos/node_e_59_node_e_59_momi.mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -10075,7 +10126,7 @@
           "id": "act2",
           "label": "くぱぁ",
           "icon": "play",
-          "video": "assets/videos/node_e_59_kupa (2).mp4",
+          "video": "assets/videos/node_e_59_node_e_59_kupa (2).mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -10119,7 +10170,7 @@
       "idleAudioVolume": 1,
       "idleAudioMix": "mix",
       "bgmLoop": true,
-      "bgmVolume": 1,
+      "bgmVolume": 0.32,
       "meterEnabled": false,
       "interactionMode": "speed",
       "targetSpeed": 1.5,
@@ -10129,7 +10180,8 @@
       "scrubRange": 0.2,
       "idleText": "そんなに広げないで...",
       "idleSpeaker": "ルリ",
-      "done": true
+      "done": true,
+      "bgm": "assets/audio/node_e_59_suberasu.wav"
     },
     "node_s_14": {
       "id": "node_s_14",
@@ -10679,6 +10731,7 @@
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
+          "videoAudioOn": true,
           "text": "そこ気持ちいかも",
           "textSpeed": 40,
           "speaker": "ルリ",
@@ -10690,7 +10743,7 @@
           "id": "act2",
           "label": "太もも",
           "icon": "play",
-          "video": "assets/videos/node_e_64_ふともも.mp4",
+          "video": "assets/videos/node_e_64_node_e_64_grok-video-4a684efe-263d-4f90-89f5-246001be592b_1.mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -10702,6 +10755,7 @@
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
+          "videoAudioOn": true,
           "text": "んっ....",
           "textSpeed": 40,
           "speaker": "ルリ",
@@ -10713,7 +10767,7 @@
           "id": "act5",
           "label": "太もも２",
           "icon": "play",
-          "video": "assets/videos/node_e_64_grok-video-4a684efe-263d-4f90-89f5-246001be592b.mp4",
+          "video": "assets/videos/node_e_64_node_e_64_grok-video-4a684efe-263d-4f90-89f5-246001be592b.mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -10725,6 +10779,7 @@
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
+          "videoAudioOn": true,
           "text": "んっ......それ以上上は  ダメだからね...",
           "textSpeed": 40,
           "speaker": "ルリ",
@@ -10736,7 +10791,7 @@
           "id": "act3",
           "label": "お尻",
           "icon": "play",
-          "video": "assets/videos/node_e_64_お尻.mp4",
+          "video": "assets/videos/node_e_64_node_e_64_grok-video-4a684efe-263d-4f90-89f5-246001be592b_2.mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -10748,6 +10803,7 @@
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
+          "videoAudioOn": true,
           "text": "ちょっと、　お尻は揉まないでよ",
           "textSpeed": 40,
           "speaker": "ルリ",
@@ -10807,7 +10863,8 @@
       "idleTextSpeed": 40,
       "idleText": "（スベスベで気持ちいな...）",
       "idleSpeaker": "オジ",
-      "done": true
+      "done": true,
+      "idleAudio": "assets/audio/node_e_64_suberasu.wav"
     },
     "node_s_15": {
       "id": "node_s_15",
@@ -10827,14 +10884,14 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "",
       "transition": "fade",
       "text": [
         {
           "speaker": "ルリ",
           "body": "んっ　んっ　んっ",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_15_Neutral_test.wav",
+          "voiceSrc": "assets/audio/node_s_15_Neutral_test.mp4",
+          "voiceLoop": true,
           "charMediaList": [
             {
               "type": "video",
@@ -10854,8 +10911,9 @@
         },
         {
           "speaker": "オジ",
-          "body": "（あれ？\nもしかして感じてるのか？）",
+          "body": "（あれ......?  もしかして感じてるのか？）",
           "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_s_15_Neutral_test.mp4",
           "usePrevMedia": true,
           "charMediaList": [
             {
@@ -10867,7 +10925,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "やっぱり！\nパンティにうっすらシミが付いている....\nこれは...いけるかもしれない...",
+          "body": "（やっぱり....！）\n（パンティにうっすらシミが付いている....）\n（これは...いけるかもしれない...）",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_15_Neutral_test (1).wav",
           "charMediaList": [
@@ -10910,7 +10968,10 @@
         "enabled": false,
         "autoMove": false
       },
-      "done": true
+      "done": true,
+      "bgmLoop": true,
+      "bgmVolume": 1,
+      "bgm": "assets/audio/node_s_15_suberasu.wav"
     },
     "node_e_65": {
       "id": "node_e_65",
@@ -11330,19 +11391,20 @@
       "text": [
         {
           "speaker": "？？？",
-          "body": "「あっ……あんっ！　オジ　激しすぎ……っ！\nはぁん……！　だめぇ……イっちゃう……！」",
+          "body": "あっ……あんっ！　オジ　激しすぎ……っ！\nはぁん……！　だめぇ……イっちゃう……！",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_20_1.wav",
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_20_SeaArt  ComfyUI_00002.mp4",
+              "src": "assets/videos/node_s_20_node_s_20_SeaArt  ComfyUI_00002_1.mp4",
               "loop": "loop",
               "fit": "cover",
               "scale": 2.1,
               "posX": 51,
               "posY": 39,
-              "blurBg": true
+              "blurBg": true,
+              "audioOn": true
             }
           ]
         },
@@ -11367,7 +11429,8 @@
         },
         {
           "speaker": "",
-          "body": "（次はもっと上手くやるぞ....）",
+          "body": "次はもっと上手くやるぞ....",
+          "displayMode": "adv",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_20_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1 (2).mp4",
           "charMediaMode": "add",
@@ -11801,13 +11864,14 @@
               "posX": 51,
               "posY": 53,
               "enterEffect": "fade",
-              "blurBg": true
+              "blurBg": true,
+              "audioOn": true
             }
           ]
         },
         {
           "speaker": "オジ",
-          "body": "それでは...\nあぁ堪らないなぁ\nルーズソックスってこんな感じになっているんだね",
+          "body": "それでは...\nあぁ....堪らないなぁ\nルーズソックスってこんな感じになっているんだね",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -11817,7 +11881,7 @@
               "loop": "loop",
               "fit": "cover",
               "scale": 1.5,
-              "posX": 50,
+              "posX": 51,
               "posY": 47,
               "enterEffect": "fade",
               "blurBg": true
@@ -11854,8 +11918,8 @@
               "src": "assets/videos/node_s_19_5.mp4",
               "loop": "loop",
               "fit": "cover",
-              "scale": 1.35,
-              "posX": 47,
+              "scale": 1.5,
+              "posX": 50,
               "posY": 48,
               "enterEffect": "fade",
               "blurBg": true
@@ -11883,7 +11947,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（結構責めてる感じだけど　特に反応も無いし　触るにはダメで���無いのかも...）",
+          "body": "（結構責めてる感じだけど　特に反応も無いし　触るのはダメで無いのかも...）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -11902,7 +11966,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（とりあえず撮っておかないと..\n次はどうしようかな...）",
+          "body": "（とりあえず撮っておかないと..）\n（次はどうしようかな...）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -12046,7 +12110,7 @@
         "speedControl": true,
         "lockMeter": true
       },
-      "nextNodeId": "node_e_59_copy2217",
+      "nextNodeId": "",
       "thumbnail": "",
       "groupId": "group_1775828145657",
       "transition": "fade",
@@ -13106,7 +13170,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "あはは...\nいや　今日ちょっと歩いたし疲れているかと思ってマッサージしてあげようかなと思って...",
+          "body": "あはは...\nいや　今日ちょっと歩いたし疲れているかと思って\nマッサージしてあげようかなと思って...",
           "charSpeed": 40,
           "charMediaList": [
             {
@@ -13126,6 +13190,7 @@
           "speaker": "オジ",
           "body": "どう？\nこの股関節のストレッチとか効くでしょ？",
           "charSpeed": 40,
+          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -13210,7 +13275,7 @@
           "id": "act3",
           "label": "足を広げる",
           "icon": "play",
-          "video": "assets/videos/node_e_79_grok-video-ef8257be-0c77-4d01-8642-6f2bc512d283 (1)_1.mp4",
+          "video": "assets/videos/node_e_79_node_e_79_grok-video-ef8257be-0c77-4d01-8642-6f2bc512d283 (1)_1_2.mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -13222,6 +13287,7 @@
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
+          "videoAudioOn": true,
           "text": "あっ....\nちょっと　そこは違うでしょ...",
           "textSpeed": 40,
           "speaker": "ルリ",
@@ -13233,19 +13299,20 @@
           "id": "act1",
           "label": "恥骨マッサージ",
           "icon": "play",
-          "video": "assets/videos/node_e_79_ai-artwork-video_f7101eff-76fa-474b-a52d-26ea7b56c0b7.mp4",
+          "video": "assets/videos/node_e_79_node_e_79_grok-video-ef8257be-0c77-4d01-8642-6f2bc512d283 (1)_1_4.mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 0.8,
           "videoPosX": 51,
-          "videoPosY": 43,
+          "videoPosY": 48,
           "meterThreshold": 0,
           "videoBlurBg": true,
           "audio": "assets/audio/node_e_79_Neutral_te3st.wav",
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
-          "text": "んっ\nもろに触ってるじゃん...",
+          "videoAudioOn": true,
+          "text": "んっ....\nもろに触ってるじゃん...",
           "textSpeed": 40,
           "speaker": "ルリ",
           "finishMediaScale": 1,
@@ -13325,7 +13392,8 @@
       "interactionMode": "speed",
       "targetSpeed": 1.5,
       "speedRange": 0.3,
-      "done": true
+      "done": true,
+      "idleVideoAudioOn": true
     },
     "node_s_25_copy9483": {
       "id": "node_s_25_copy9483",
@@ -14969,14 +15037,14 @@
       "text": [
         {
           "speaker": "ルリ",
-          "body": "っ！？\n ちょっ　ちょっと \nそんな開いて見ないでよ",
+          "body": "！？ ちょっ　ちょっと ！\nそんな開いて見ないでよ！",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_35_1.wav",
           "charMediaList": [
             {
               "type": "video",
               "src": "assets/videos/node_s_35_ai-artwork-video_3f5d2cdb-c6ea-4ed9-8c13-26cbe118dadf.mp4",
-              "loop": "none",
+              "loop": "loop",
               "fit": "cover",
               "scale": 2,
               "posX": 46,
@@ -16097,8 +16165,8 @@
       "id": "node_s_53",
       "type": "story",
       "pos": [
-        2100,
-        1770
+        2150,
+        1800
       ],
       "title": "スマホを見ていた言い訳",
       "background": {
@@ -18095,13 +18163,13 @@
         "posX": 50,
         "posY": 50
       },
-      "idleVideo": "assets/videos/node_e_59_copy2217_kupa.mp4",
+      "idleVideo": "assets/videos/node_e_59_copy2217_node_e_59_copy2217_kupa.mp4",
       "actions": [
         {
           "id": "act3",
           "label": "指で撫でる",
           "icon": "play",
-          "video": "assets/videos/node_e_59_copy2217_grok-video-ec0d4827-f3a5-4c34-b31e-f65484c65275 (5).mp4",
+          "video": "assets/videos/node_e_59_copy2217_node_e_59_copy2217_grok-video-ec0d4827-f3a5-4c34-b31e-f65484c65275 (5).mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -18113,6 +18181,7 @@
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
+          "videoAudioOn": true,
           "text": "はぁ……はぁ……くすぐったいから、指でなぞるのやめて……",
           "textSpeed": 40,
           "speaker": "ルリ",
@@ -18124,7 +18193,7 @@
           "id": "act4",
           "label": "指を入れる",
           "icon": "play",
-          "video": "assets/videos/node_e_59_copy2217_3.mp4",
+          "video": "assets/videos/node_e_59_copy2217_ai-artwork-video_68598a8f-35f3-4987-915e-fc6e04972cfe.mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 0.95,
@@ -18136,6 +18205,7 @@
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
+          "videoAudioOn": true,
           "text": "んっ……！ \nそんないれないでよ！\n だめ……そんなに...激しく...動かされたら……  んっ...",
           "textSpeed": 40,
           "speaker": "ルリ",
@@ -18147,7 +18217,7 @@
           "id": "act4",
           "label": "自分で動いてもらう",
           "icon": "play",
-          "video": "assets/videos/node_e_59_copy2217_a1.mp4",
+          "video": "assets/videos/node_e_59_copy2217_node_e_59_copy2217_a1.mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -18159,7 +18229,8 @@
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
-          "text": "腰を...動かせって……？ 　　そんなの……でも…勝手に…腰が...動いちゃうぅ。",
+          "videoAudioOn": true,
+          "text": "腰を...動かせって……？ 　　そんなの……でも…勝手に…腰が...動いちゃう....",
           "textSpeed": 40,
           "speaker": "ルリ",
           "finishMediaScale": 1,
@@ -18269,7 +18340,8 @@
       ],
       "idleText": "パンツ触らないでよ...",
       "idleSpeaker": "ルリ",
-      "done": true
+      "done": true,
+      "idleVideoAudioOn": true
     },
     "node_s_61": {
       "id": "node_s_61",
@@ -18417,7 +18489,7 @@
           "videoPosX": 50,
           "videoPosY": 50,
           "meterThreshold": 0,
-          "nextNodeId": "node_e_59_copy2217",
+          "nextNodeId": "",
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
@@ -18436,7 +18508,7 @@
         "speedControl": true,
         "lockMeter": true
       },
-      "nextNodeId": "node_e_62",
+      "nextNodeId": "",
       "thumbnail": "",
       "groupId": "group_1775828145657",
       "transition": "fade",
@@ -18572,7 +18644,8 @@
         "enabled": false,
         "autoMove": false
       },
-      "done": true
+      "done": true,
+      "hidden": true
     },
     "node_s_67": {
       "id": "node_s_67",
@@ -18592,7 +18665,7 @@
         "posX": 50,
         "posY": 50
       },
-      "bgm": "",
+      "bgm": "assets/audio/node_s_67_suberasu.wav",
       "transition": "fade",
       "text": [
         {
@@ -18617,6 +18690,7 @@
           "speaker": "オジ",
           "body": "ルリちゃん、ここ……すごく熱くなってるよ。",
           "charSpeed": 40,
+          "voiceLoop": true,
           "charMediaList": [
             {
               "type": "video",
@@ -18758,7 +18832,10 @@
         "enabled": false,
         "autoMove": false
       },
-      "done": true
+      "done": true,
+      "hidden": true,
+      "bgmLoop": true,
+      "bgmVolume": 0.22
     },
     "node_e_67": {
       "id": "node_e_67",
@@ -19131,7 +19208,7 @@
         360,
         250
       ],
-      "title": "作品コンセプト",
+      "title": "作品コン���プト",
       "background": {
         "type": "image",
         "src": "",
@@ -19725,8 +19802,8 @@
       ],
       "collapsed": false,
       "manualRect": [
-        1347.2064407695977,
-        1165.6378680388457,
+        1385.093076108592,
+        1191.665428086818,
         1431.2040869680077,
         1219.004338719108
       ]
