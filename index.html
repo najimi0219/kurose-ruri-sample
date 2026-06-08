@@ -60,19 +60,10 @@
         <div id="home-subtitle" class="home-subtitle"></div>
         <div class="home-buttons">
           <button id="btn-start" class="btn btn-primary"><span class="pi"></span> START</button>
-          <button id="btn-load" class="btn"><span class="pi"></span> ロード</button>
+          <button id="btn-continue" class="btn" style="display:none"><span class="pi"></span> つづきから</button>
           <button id="btn-gallery" class="btn"><span class="pi"></span> 解放一覧</button>
         </div>
       </div>
-    </section>
-
-    <!-- ==== LOAD SCREEN ==== -->
-    <section id="screen-load" class="screen safe-top safe-bottom">
-      <div class="screen-header">
-        <button id="btn-load-back" class="btn btn-icon">←</button>
-        <h2>セーブ / ロード</h2>
-      </div>
-      <div class="save-slots" id="save-slots"></div>
     </section>
 
     <!-- ==== GALLERY SCREEN ==== -->
@@ -247,8 +238,6 @@
     <button class="sys-menu-toggle" id="btn-sys-toggle" title="メニュー">☰</button>
     <div class="sys-menu-items" id="sys-menu-items">
       <button class="sys-menu-btn" id="btn-sys-home"><span class="pi"></span> HOME</button>
-      <button class="sys-menu-btn" id="btn-sys-save"><span class="pi"></span> SAVE</button>
-      <button class="sys-menu-btn" id="btn-sys-load"><span class="pi"></span> LOAD</button>
       <button class="sys-menu-btn" id="btn-sys-checkpoint"><span class="pi"></span> CP</button>
       <button class="sys-menu-btn" id="btn-sys-settings" title="設定">⚙</button>
     </div>
@@ -317,14 +306,6 @@
     </div>
   </div>
 
-  <!-- Save modal -->
-  <div id="save-modal" class="modal-overlay" hidden>
-    <div class="modal-box">
-      <div class="modal-title" id="save-modal-title">セーブスロットを選択</div>
-      <div class="modal-slots" id="modal-slots"></div>
-      <button class="modal-close" id="btn-modal-close">キャンセル</button>
-    </div>
-  </div>
 
   </div><!-- /game-root -->
 

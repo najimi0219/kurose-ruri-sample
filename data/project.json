@@ -6546,9 +6546,9 @@
       "transitionDuration": 400,
       "idleMediaType": "video",
       "idleVideoFit": "cover",
-      "idleVideoScale": 1.25,
-      "idleVideoPosX": 52,
-      "idleVideoPosY": 50,
+      "idleVideoScale": 1.05,
+      "idleVideoPosX": 50,
+      "idleVideoPosY": 30,
       "idleVideoBlurBg": true,
       "idleAudioLoop": false,
       "idleAudioVolume": 1,
@@ -6563,7 +6563,7 @@
       "finishText": [
         {
           "speaker": "オジ",
-          "body": "ううっ……ルリちゃんの中……締まりすぎて……出る……出るよぉ……！！",
+          "body": "ううっ……ルリちゃんの中……締まりすぎて\n……出る……出るよぉ……！！",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_e_02_khse_08.wav",
           "charMediaList": [
@@ -6572,9 +6572,9 @@
               "src": "assets/videos/node_e_02_2_1.mp4",
               "loop": "loop",
               "fit": "cover",
-              "scale": 1,
-              "posX": 50,
-              "posY": 50,
+              "scale": 1.15,
+              "posX": 48,
+              "posY": 47,
               "blurBg": true,
               "audioOn": true
             }
@@ -6582,7 +6582,7 @@
         },
         {
           "speaker": "ルリ",
-          "body": "...ん..中に...ださないで！..あっ...妊娠しちゃう……　オジの...せい...だからね……！",
+          "body": "んっ..中に...ださないで！\nあっ...妊娠しちゃう……\nオジの...せい...だからね……！",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_e_02_ASMRdsds_test.wav",
           "usePrevMedia": true,
@@ -6596,7 +6596,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "はぁ……はぁ……いや、最高過ぎた……ルリちゃんの中、温かくて締まって……不覚にもイってしまった……でもこれじゃ一回限りだ……勿体ない……回帰するかぁ……",
+          "body": "はぁ……はぁ……\n……不覚にもイってしまった……\nでもこれじゃ一回限りだ……勿体ない\n……回帰するかぁ……",
           "displayMode": "nvl",
           "charSpeed": 40,
           "charMediaList": [
@@ -9681,7 +9681,7 @@
         "posX": 50,
         "posY": 50
       },
-      "idleVideo": "projects/���瀬瑠璃/assets/videos/node_e_30_grok-video-862edf60-0250-4f87-9dec-5e144ac54335 - Trim_1.mp4",
+      "idleVideo": "assets/videos/node_e_30_grok-video-862edf60-0250-4f87-9dec-5e144ac54335 - Trim_1.mp4",
       "actions": [
         {
           "id": "act1",
@@ -10715,13 +10715,13 @@
         "loop": false,
         "audioOn": false
       },
-      "idleVideo": "assets/videos/node_e_64_反転させる.mp4",
+      "idleVideo": "assets/videos/node_e_64_ふくらはぎ２スクラブ.mp4",
       "actions": [
         {
           "id": "act1",
           "label": "タッチ",
           "icon": "play",
-          "video": "assets/videos/node_e_64_ふくらはぎ.mp4",
+          "video": "assets/videos/node_e_64_ふくらはぎ２スクラブ.mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -10775,7 +10775,7 @@
           "videoScale": 1,
           "videoPosX": 49,
           "videoPosY": 76,
-          "meterThreshold": 0,
+          "meterThreshold": 40,
           "videoBlurBg": true,
           "audio": "assets/audio/node_e_64_soreijyou.wav",
           "audioLoop": false,
@@ -10835,7 +10835,7 @@
         }
       ],
       "meter": {
-        "threshold": 10,
+        "threshold": 50,
         "counting": "active_time"
       },
       "controls": {
@@ -10859,14 +10859,15 @@
       "idleAudioMix": "mix",
       "bgmLoop": true,
       "bgmVolume": 1,
-      "interactionMode": "speed",
+      "interactionMode": "scrub",
       "targetSpeed": 1.5,
       "speedRange": 0.3,
       "idleTextSpeed": 40,
       "idleText": "（スベスベで気持ちいな...）",
       "idleSpeaker": "オジ",
       "done": true,
-      "idleAudio": "assets/audio/node_e_64_suberasu.wav"
+      "idleAudio": "assets/audio/node_e_64_suberasu.wav",
+      "scrubRange": 0.2
     },
     "node_s_15": {
       "id": "node_s_15",
@@ -10893,7 +10894,6 @@
           "body": "んっ　んっ　んっ",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_15_Neutral_test.mp4",
-          "voiceLoop": true,
           "charMediaList": [
             {
               "type": "video",
@@ -11756,9 +11756,9 @@
           "video": "assets/videos/node_e_48_grok-video-f4835026-8a82-451d-a325-285c008b69a5_1.mp4",
           "duration": 1,
           "videoFit": "cover",
-          "videoScale": 1.05,
+          "videoScale": 0.75,
           "videoPosX": 50,
-          "videoPosY": 76,
+          "videoPosY": 89,
           "meterThreshold": 0,
           "videoBlurBg": true,
           "audio": "assets/audio/node_e_48_2.wav",
@@ -19225,7 +19225,7 @@
         360,
         250
       ],
-      "title": "作品コン���プト",
+      "title": "作品コンセプト",
       "background": {
         "type": "image",
         "src": "",
@@ -19667,7 +19667,8 @@
         "node_s_38",
         "node_e_106",
         "node_e_59_copy2217",
-        "node_e_61_copy5185"
+        "node_e_61_copy5185",
+        "node_home_01"
       ],
       "collapsed": false,
       "manualRect": [
