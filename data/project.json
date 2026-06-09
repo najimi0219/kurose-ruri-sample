@@ -35,7 +35,7 @@
         1150,
         1170
       ],
-      "title": "出逢い2",
+      "title": "待ち合わせ",
       "background": {
         "type": "image",
         "src": "",
@@ -108,7 +108,6 @@
           "body": " あー　そうだけど？\n今日はオジかぁ～\n遅いよ　5分過ぎてる",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/001.wav",
-          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -165,7 +164,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "え あ…もちろん！\n いくらだっけ…3万でいいんだよね？",
+          "body": "えっ？ あっ…もちろん！\n いくらだっけ…3万でいいんだよね？",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_01_copy6403_grok-video-3b0a06a5-327d-43f4-9e20-02aa56a5b349.mp3",
           "charMediaMode": "add",
@@ -505,7 +504,7 @@
         1830,
         1490
       ],
-      "title": "カフェ1",
+      "title": "パンケーキ店提案",
       "background": {
         "type": "image",
         "src": "",
@@ -687,7 +686,7 @@
         3010,
         1400
       ],
-      "title": "ホテルにて",
+      "title": "ホテル移動",
       "background": {
         "type": "image",
         "src": "",
@@ -724,7 +723,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（よし、とりあえず何はともあれホテルまで行くことができた！！）\n（今から色んな撮影できるとなると興奮がヤバいな...）",
+          "body": "（よし　とりあえず何はともあれホテルまで行くことができた！！）\n（今から色んな撮影できるとなると興奮がヤバいな...）",
           "charSpeed": 40,
           "charMediaList": [
             {
@@ -747,7 +746,7 @@
         },
         {
           "speaker": "ルリ",
-          "body": "それじゃ、この後彼氏とも会わなきゃだし、私は寛いでおくから勝手に撮影でもしてて",
+          "body": "それじゃ...この後彼氏とも会わなきゃだし\n私は寛いでおくから勝手に撮影でもしてて",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_27_3.wav",
           "charMediaList": [
@@ -766,7 +765,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "あっ...分かったよ\n（てっきり『撮影会』って言ったら、こっちが指示するポーズいっぱい取ってくれると思ってたのに……）\n（ただスマホいじりながら休憩したかっただけか....）\n（まあ……それでもパンティ見える距離で撮り放題って状況は変わらないけど）\n（でも...このまま終わるぐらいだったら.....)",
+          "body": "あっ...分かったよ\n（てっきり『撮影会』って言ったから\nこっちが指示するポーズいっぱい取ってくれると思ってたのに……）\n（ただスマホいじりながら休憩したかっただけか....）\n（まあ……それでもパンティ見える距離で撮り放題って状況は変わらないけど）\n（でも...このまま終わるぐらいだったら.....)",
           "displayMode": "adv",
           "charSpeed": 40,
           "charMediaList": [
@@ -1614,7 +1613,7 @@
         3600,
         4540
       ],
-      "title": "ソファで寛ぐ",
+      "title": "ポーズ交渉",
       "background": {
         "type": "image",
         "src": "",
@@ -1987,7 +1986,7 @@
         3320,
         4540
       ],
-      "title": "足広げ",
+      "title": "ソファで寛ぐ",
       "background": {
         "type": "image",
         "src": "",
@@ -5548,7 +5547,7 @@
         7410,
         5750
       ],
-      "title": "バック1",
+      "title": "バック2/四つん這い/ソファ",
       "background": {
         "type": "image",
         "src": "",
@@ -5695,7 +5694,7 @@
         6850,
         5750
       ],
-      "title": "バック",
+      "title": "バックで挿入/四つん這い/ソファ",
       "background": {
         "type": "image",
         "src": "",
@@ -5710,7 +5709,7 @@
       "text": [
         {
           "speaker": "ルリ",
-          "body": "ちょっと、そんなに押し付けないで....",
+          "body": "ちょっと...そんなに押し付けないで....",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_71_Neuddtral_test.wav",
           "charMediaList": [
@@ -5763,7 +5762,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "あれれ、ちょっと湿っているね",
+          "body": "あれれ...ちょっと湿っているね",
           "charSpeed": 40,
           "charMediaList": [
             {
@@ -5780,9 +5779,9 @@
         },
         {
           "speaker": "ルリ",
-          "body": "違うし...オジの...我慢汁...だし...",
+          "body": "違うし...オジの...我慢汁でしょ！",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_71_gffg.wav",
+          "voiceSrc": "assets/audio/node_s_71_ASMR_test.wav",
           "charMediaList": [
             {
               "type": "video",
@@ -5835,7 +5834,7 @@
           "speaker": "ルリ",
           "body": "って入ってるから！！\nダメだよ...",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_71_ttehaitte.wav",
+          "voiceSrc": "assets/audio/node_s_71_ASMR_fdftest (1).wav",
           "charMediaList": [
             {
               "type": "video",
@@ -6448,7 +6447,7 @@
         7090,
         5750
       ],
-      "title": "バック２",
+      "title": "バック/四つん這い/ソファ",
       "background": {
         "type": "image",
         "src": "",
@@ -6497,7 +6496,7 @@
           "videoPosY": 44,
           "meterThreshold": 0,
           "videoBlurBg": true,
-          "audio": "assets/audio/node_e_02_ASMfffR_test.wav",
+          "audio": "assets/audio/node_e_02_okuASMR_test.wav",
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
@@ -6565,7 +6564,7 @@
           "speaker": "オジ",
           "body": "ううっ……ルリちゃんの中……締まりすぎて\n……出る……出るよぉ……！！",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_e_02_khse_08.wav",
+          "voiceSrc": "assets/audio/node_e_02_daASMR_test.wav",
           "charMediaList": [
             {
               "type": "video",
@@ -6582,9 +6581,9 @@
         },
         {
           "speaker": "ルリ",
-          "body": "んっ..中に...ださないで！\nあっ...妊娠しちゃう……\nオジの...せい...だからね……！",
+          "body": "んっ..ちょっと！\n中に...出さないでよ！",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_e_02_ASMRdsds_test.wav",
+          "voiceSrc": "assets/audio/node_e_02_nakadasiASMR_test.wav",
           "usePrevMedia": true,
           "charMediaList": [
             {
@@ -6618,10 +6617,10 @@
       "id": "node_s_01_copy3137_copy1955",
       "type": "story",
       "pos": [
-        2050,
+        2060,
         1480
       ],
-      "title": "カフェ2",
+      "title": "パンケーキ店内",
       "background": {
         "type": "image",
         "src": "",
@@ -6632,7 +6631,7 @@
         "posX": 50,
         "posY": 50
       },
-      "bgm": "assets/audio/node_s_01_copy3137_copy1955_The Sounds Of A Hawaiian Cafe, A Tropical And Relaxed Groove, The Sounds Of T.mp3",
+      "bgm": "assets/audio/node_s_01_copy3137_copy1955_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3",
       "transition": "white-fade",
       "text": [
         {
@@ -6992,10 +6991,10 @@
       "id": "node_s_02",
       "type": "story",
       "pos": [
-        2330,
+        2360,
         1470
       ],
-      "title": "謝罪",
+      "title": "謝罪/パンケーキ店",
       "background": {
         "type": "image",
         "src": "",
@@ -7006,7 +7005,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_02_The Sounds Of A Hawaiian Cafe, A Tropical And Relaxed Groove, The Sounds Of T.mp3",
+      "bgm": "assets/audio/node_s_02_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3",
       "transition": "white-fade",
       "text": [
         {
@@ -7117,7 +7116,7 @@
         2530,
         1770
       ],
-      "title": "１万円だけ払う",
+      "title": "値下げ交渉/パンケーキ店",
       "background": {
         "type": "image",
         "src": "",
@@ -7301,14 +7300,16 @@
       ],
       "thumbnail": "",
       "transitionDuration": 400,
-      "bgm": "",
+      "bgm": "assets/audio/node_s_03_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3",
       "move": {
         "enabled": false,
         "autoMove": false
       },
       "groupId": "group_1778414694895",
       "nextNodeId": "",
-      "hidden": true
+      "hidden": true,
+      "bgmLoop": true,
+      "bgmVolume": 0.24
     },
     "node_s_02_copy1476": {
       "id": "node_s_02_copy1476",
@@ -7317,7 +7318,7 @@
         2670,
         1460
       ],
-      "title": "撮影会の場所決め",
+      "title": "撮影会の場所決め/パンケーキ店",
       "background": {
         "type": "image",
         "src": "",
@@ -7328,7 +7329,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_02_copy1476_The Sounds Of A Hawaiian Cafe, A Tropical And Relaxed Groove, The Sounds Of T.mp3",
+      "bgm": "assets/audio/node_s_02_copy1476_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3",
       "transition": "fade",
       "text": [
         {
@@ -7399,7 +7400,7 @@
         3830,
         4550
       ],
-      "title": "撮影会",
+      "title": "パンチラ撮影会",
       "background": {
         "type": "image",
         "src": "",
@@ -7621,7 +7622,7 @@
         4440,
         2840
       ],
-      "title": "撮影会後",
+      "title": "着信アリ/撮影会後",
       "background": {
         "type": "image",
         "src": "",
@@ -7705,7 +7706,7 @@
         4910,
         1900
       ],
-      "title": "電話に出る",
+      "title": "彼氏と電話/ソファ",
       "background": {
         "type": "image",
         "src": "",
@@ -9670,7 +9671,7 @@
         4120,
         5800
       ],
-      "title": "四つん這いパンチラ",
+      "title": "パンチラ/四つん這い",
       "background": {
         "type": "image",
         "src": "",
@@ -9728,7 +9729,7 @@
           "id": "act3",
           "label": "アップ",
           "icon": "play",
-          "video": "projects/黒瀬���璃/assets/videos/node_e_30_grok-video-ec0d4827-f3a5-4c34-b31e-f65484c65275 (1).mp4",
+          "video": "assets/videos/node_e_30_grok-video-ec0d4827-f3a5-4c34-b31e-f65484c65275 (1).mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -9812,7 +9813,7 @@
         4400,
         5800
       ],
-      "title": "お尻揉み",
+      "title": "お尻揉み/四つん這い",
       "background": {
         "type": "image",
         "src": "",
@@ -9918,7 +9919,7 @@
         4580,
         5800
       ],
-      "title": "お尻揉み＿ソファ",
+      "title": "お尻揉み/四つん這い",
       "background": {
         "type": "image",
         "src": "",
@@ -10179,7 +10180,7 @@
       "speedRange": 0.3,
       "idleAudio": "assets/audio/node_e_59_horoge.wav",
       "idleTextSpeed": 40,
-      "scrubRange": 0.2,
+      "scrubRange": 0.1,
       "idleText": "そんなに広げないで...",
       "idleSpeaker": "ルリ",
       "done": true,
@@ -10192,7 +10193,7 @@
         6590,
         5480
       ],
-      "title": "素股/四つん這い",
+      "title": "素股/背面騎乗位/ソファ",
       "background": {
         "type": "image",
         "src": "",
@@ -10388,11 +10389,11 @@
             {
               "type": "video",
               "src": "assets/videos/node_e_62_SeaArt  ComfyUI_00031.mp4",
-              "loop": "loop",
+              "loop": "none",
               "fit": "cover",
-              "scale": 2.1,
-              "posX": 50,
-              "posY": 4,
+              "scale": 2.45,
+              "posX": 49,
+              "posY": 10,
               "blurBg": true
             }
           ]
@@ -10486,7 +10487,7 @@
         4140,
         4550
       ],
-      "title": "うつ伏せパンチラ",
+      "title": "パンチラ/うつ伏せ",
       "background": {
         "type": "image",
         "src": "",
@@ -10605,7 +10606,7 @@
         4440,
         4550
       ],
-      "title": "マッサージ/うつ伏せ",
+      "title": "マッサージ提案/うつ伏せ",
       "background": {
         "type": "image",
         "src": "",
@@ -10874,9 +10875,9 @@
       "type": "story",
       "pos": [
         4990,
-        4620
+        4580
       ],
-      "title": "あれっ？湿っている？",
+      "title": "あれっ？湿っている？/うつ伏せ",
       "background": {
         "type": "image",
         "src": "",
@@ -10901,8 +10902,8 @@
               "loop": "loop",
               "fit": "cover",
               "scale": 2,
-              "posX": 36,
-              "posY": 23,
+              "posX": 49,
+              "posY": 24,
               "motion": {
                 "kind": "pan-v",
                 "speed": "normal"
@@ -11081,7 +11082,7 @@
         5170,
         4910
       ],
-      "title": "もしして、、、　bad",
+      "title": "もしして...",
       "background": {
         "type": "image",
         "src": "",
@@ -11395,7 +11396,7 @@
           "speaker": "？？？",
           "body": "あっ……あんっ！　オジ　激しすぎ……っ！\nはぁん……！　だめぇ……イっちゃう……！",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_20_1.wav",
+          "voiceSrc": "assets/audio/node_s_20_1ASMR_test.wav",
           "charMediaList": [
             {
               "type": "video",
@@ -11451,7 +11452,7 @@
           ]
         }
       ],
-      "nextNodeId": "node_s_21",
+      "nextNodeId": "node_s_01_copy6403_copy1591",
       "thumbnail": "",
       "groupId": "group_1777052080589",
       "memo": "【①シーン：ホテルでのセックスシーン（クライマックス）】\n（激しい喘ぎ声が響くラブホテル。瑠璃がベッドの上で仰向けにされ、オジに激しく突かれている。）\n瑠璃\n「あっ……あんっ！　オジ、激しすぎ……っ���\nはぁん……！　もう……イっちゃう……！」\nオジ\n（腰を振りながら、内心で）\n「何度回帰したか知らないが、今回はかなりいいぞ！\nルリちゃんの締め付け、最高に気持ちいい……\nでもこれだと一回限りの関係に終わってしまう！\n勿体ない……このままじゃまた同じ失敗を繰り返すだけだ。\nやり直すか……」\n（オジは瑠璃が絶頂に達した直後、目を閉じて心の中でチェックポイントを更新する。）\n画面効果：激しい白フラッシュ＋低く響く回帰音",
@@ -11463,38 +11464,6 @@
       "done": true,
       "bgmLoop": true,
       "bgmVolume": 1
-    },
-    "node_s_21": {
-      "id": "node_s_21",
-      "type": "story",
-      "pos": [
-        630,
-        1166
-      ],
-      "title": "タイトルシーン",
-      "background": {
-        "type": "image",
-        "src": "",
-        "loop": false,
-        "audioOn": false,
-        "fit": "cover",
-        "scale": 1,
-        "posX": 50,
-        "posY": 50
-      },
-      "bgm": "",
-      "transition": "fade",
-      "text": [],
-      "nextNodeId": "node_s_01_copy6403_copy1591",
-      "thumbnail": "",
-      "groupId": "group_1777052080589",
-      "memo": "タイトルが流れる",
-      "transitionDuration": 400,
-      "move": {
-        "enabled": false,
-        "autoMove": false
-      },
-      "done": true
     },
     "node_s_22": {
       "id": "node_s_22",
@@ -11713,7 +11682,7 @@
         4080,
         5100
       ],
-      "title": "仰向け",
+      "title": "パンチラ/仰向け",
       "background": {
         "type": "image",
         "src": "",
@@ -11819,7 +11788,7 @@
         4410,
         5110
       ],
-      "title": "仰向け 触り",
+      "title": "足撫で/仰向け",
       "background": {
         "type": "image",
         "src": "",
@@ -12026,7 +11995,7 @@
         5380,
         5480
       ],
-      "title": "仰向け/足コキ",
+      "title": "足コキ/仰向け",
       "background": {
         "type": "image",
         "src": "",
@@ -13150,7 +13119,7 @@
         4700,
         5120
       ],
-      "title": "マッサージ/仰向け",
+      "title": "マッサージ提案/仰向け",
       "background": {
         "type": "image",
         "src": "",
@@ -13295,9 +13264,9 @@
           "video": "assets/videos/node_e_79_node_e_79_grok-video-ef8257be-0c77-4d01-8642-6f2bc512d283 (1)_1_2.mp4",
           "duration": 1,
           "videoFit": "cover",
-          "videoScale": 1,
+          "videoScale": 0.8,
           "videoPosX": 50,
-          "videoPosY": 50,
+          "videoPosY": 51,
           "meterThreshold": 0,
           "videoBlurBg": true,
           "audio": "assets/audio/node_e_79_2.wav",
@@ -13378,7 +13347,7 @@
         }
       ],
       "meter": {
-        "threshold": 10,
+        "threshold": 30,
         "counting": "active_time"
       },
       "controls": {
@@ -13406,7 +13375,7 @@
       "idleSpeaker": "オジ",
       "bgmLoop": true,
       "bgmVolume": 1,
-      "interactionMode": "speed",
+      "interactionMode": "scrub",
       "targetSpeed": 1.5,
       "speedRange": 0.3,
       "done": true,
@@ -15039,7 +15008,7 @@
         5290,
         4630
       ],
-      "title": "前儀",
+      "title": "湿りチェック/うつ伏せ",
       "background": {
         "type": "image",
         "src": "",
@@ -15080,7 +15049,7 @@
               "src": "assets/videos/node_s_35_ai-artwork-video_3f5d2cdb-c6ea-4ed9-8c13-26cbe118dadf.mp4",
               "loop": "none",
               "fit": "cover",
-              "scale": 1.8,
+              "scale": 1.9,
               "posX": 49,
               "posY": 86,
               "blurBg": true
@@ -15098,8 +15067,8 @@
               "src": "assets/videos/node_s_35_ai-artwork-video_3f5d2cdb-c6ea-4ed9-8c13-26cbe118dadf.mp4",
               "loop": "none",
               "fit": "cover",
-              "scale": 2,
-              "posX": 54,
+              "scale": 1.4,
+              "posX": 50,
               "posY": 40,
               "motion": {
                 "kind": "pan-v",
@@ -16182,10 +16151,10 @@
       "id": "node_s_53",
       "type": "story",
       "pos": [
-        2210,
-        1750
+        2200,
+        1760
       ],
-      "title": "スマホを見ていた言い訳",
+      "title": "言い訳/パンケーキ店",
       "background": {
         "type": "image",
         "src": "",
@@ -16196,7 +16165,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_53_The Sounds Of A Hawaiian Cafe, A Tropical And Relaxed Groove, The Sounds Of T.mp3",
+      "bgm": "assets/audio/node_s_53_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3",
       "transition": "fade",
       "text": [
         {
@@ -18256,7 +18225,7 @@
         }
       ],
       "meter": {
-        "threshold": 10,
+        "threshold": 30,
         "counting": "active_time"
       },
       "controls": {
@@ -18280,7 +18249,7 @@
       "idleAudioMix": "mix",
       "bgmLoop": true,
       "bgmVolume": 1,
-      "interactionMode": "speed",
+      "interactionMode": "scrub",
       "targetSpeed": 1.7,
       "speedRange": 0.3,
       "idleAudio": "assets/audio/node_e_59_copy2217_Neutral_test.wav",
@@ -18391,9 +18360,9 @@
               "src": "assets/videos/node_s_61_ai-artwork-video_b5614bb0-b706-448b-a19a-d47d67ae5d9a.mp4",
               "loop": "none",
               "fit": "cover",
-              "scale": 2.55,
+              "scale": 1.75,
               "posX": 52,
-              "posY": 62,
+              "posY": 66,
               "blurBg": true,
               "frame": "assets/images/frames/node_s_61_flame.png",
               "frameScale": 1.25,
@@ -18419,10 +18388,10 @@
       "id": "node_e_61",
       "type": "event",
       "pos": [
-        5540,
+        5610,
         5140
       ],
-      "title": "仰向け手マン",
+      "title": "手マン/仰向け",
       "background": {
         "type": "image",
         "src": "",
@@ -18616,7 +18585,7 @@
         5200,
         5480
       ],
-      "title": "仰向け/足コキ",
+      "title": "足コキ/仰向け",
       "background": {
         "type": "image",
         "src": "",
@@ -18669,9 +18638,9 @@
       "type": "story",
       "pos": [
         5350,
-        5140
+        5150
       ],
-      "title": "指で撫でる",
+      "title": "パンツ撫で/仰向け",
       "background": {
         "type": "image",
         "src": "",
@@ -18861,7 +18830,7 @@
         6830,
         5470
       ],
-      "title": "素股⇒挿入",
+      "title": "挿入/背面騎乗位/ソファ",
       "background": {
         "type": "image",
         "src": "",
@@ -19007,10 +18976,10 @@
       "id": "node_s_01_copy6403_copy1591",
       "type": "story",
       "pos": [
-        900,
+        750,
         1170
       ],
-      "title": "出逢い1",
+      "title": "出逢い前",
       "background": {
         "type": "image",
         "src": "",
@@ -19108,7 +19077,7 @@
       "type": "story",
       "pos": [
         -280,
-        230
+        240
       ],
       "title": "オープニング",
       "background": {
@@ -19125,9 +19094,9 @@
       "text": [
         {
           "speaker": "？？？",
-          "body": "「あっ……あんっ！　オジ　激しすぎ……っ！\nはぁん……！　だめぇ……イっちゃう……！」",
+          "body": "あっ……あんっ！　オジ　激しすぎ……っ！\nはぁん……！　だめぇ……イっちゃう……！",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_20_1.wav",
+          "voiceSrc": "assets/audio/node_s_20_copy7285_1ASMR_test.wav",
           "charMediaList": [
             {
               "type": "video",
@@ -19137,7 +19106,8 @@
               "scale": 2.1,
               "posX": 51,
               "posY": 39,
-              "blurBg": true
+              "blurBg": true,
+              "audioOn": true
             }
           ]
         },
@@ -19913,6 +19883,11 @@
       ]
     }
   ],
-  "clickSound": "assets/audio/click_click1.mp3",
-  "clickSoundVolume": 0.5
+  "clickSoundVolume": 0.5,
+  "decideSound": "/projects/黒瀬瑠璃/assets/audio/decide_click1.mp3",
+  "decideSoundVolume": 0.5,
+  "cancelSound": "/projects/黒瀬瑠璃/assets/audio/cancel_cancel.mp3",
+  "cancelSoundVolume": 0.5,
+  "cursorSound": "/projects/黒瀬瑠璃/assets/audio/cursor_Cursor Hover Sound Effect, Digital Ui Menu Selection Tick, Light.mp3",
+  "cursorSoundVolume": 0.5
 }
