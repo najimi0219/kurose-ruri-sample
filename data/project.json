@@ -19913,6 +19913,6 @@
   "assetObfuscation": {
     "method": "header-xor",
     "headerBytes": 4096,
-    "key": "mOzqfUW5my8cw+BlVEs6Y1XQ2tMwdruvDUqWvO/OLbd//GjGqSmgYBoGt3IfyKCv"
+    "key": "RFNYLcuCMDuloTh23PHfaF1mnkx0vzlEAp0no/YZJWgjPABj7b1oZ9aStshBI+i3"
   }
 }
