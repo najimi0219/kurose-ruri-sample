@@ -576,8 +576,8 @@
       "id": "node_e_04",
       "type": "event",
       "pos": [
-        6690,
-        2210
+        7100,
+        2280
       ],
       "title": "足コキ/ソファ/靴下",
       "background": {
@@ -1567,16 +1567,16 @@
         1530
       ],
       "background": {
-        "type": "image",
-        "src": "",
+        "type": "video",
+        "src": "assets/videos/node_end_02_bad_end_grok-video-9faf0738-8c6f-4243-8e7e-d928573df66f.mp4",
         "fit": "cover",
-        "scale": 1,
+        "scale": 1.5,
         "posX": 50,
         "posY": 50,
-        "loop": false,
-        "audioOn": false
+        "loop": true,
+        "audioOn": true
       },
-      "message": "ご覧いただきありがとうございました。",
+      "message": "今回は失敗だ.....",
       "nextNodeId": null,
       "thumbnail": "",
       "groupId": "group_1778354366777",
@@ -1597,7 +1597,6 @@
               "posX": 50,
               "posY": 50,
               "enterEffect": "fade",
-              "exitEffect": "none",
               "blurBg": true
             }
           ]
@@ -1610,8 +1609,8 @@
       "id": "node_s_34",
       "type": "story",
       "pos": [
-        3600,
-        4540
+        4010,
+        4610
       ],
       "title": "ポーズ交渉",
       "background": {
@@ -1983,8 +1982,8 @@
       "id": "node_s_41",
       "type": "story",
       "pos": [
-        3320,
-        4540
+        3730,
+        4610
       ],
       "title": "ソファで寛ぐ",
       "background": {
@@ -2108,8 +2107,8 @@
       "id": "node_s_44",
       "type": "story",
       "pos": [
-        5150,
-        2440
+        5560,
+        2510
       ],
       "title": "オナる",
       "background": {
@@ -2199,8 +2198,8 @@
       "id": "node_e_16",
       "type": "event",
       "pos": [
-        5340,
-        2440
+        5750,
+        2510
       ],
       "title": "オナる",
       "background": {
@@ -2327,8 +2326,8 @@
       "id": "node_s_45",
       "type": "story",
       "pos": [
-        5620,
-        2440
+        6030,
+        2510
       ],
       "title": "手で触れてもらう",
       "background": {
@@ -2521,8 +2520,8 @@
       "id": "node_e_19",
       "type": "event",
       "pos": [
-        5820,
-        2460
+        6230,
+        2530
       ],
       "title": "手コキ",
       "background": {
@@ -2653,8 +2652,8 @@
       "id": "node_e_20",
       "type": "event",
       "pos": [
-        6340,
-        2480
+        6750,
+        2550
       ],
       "title": "舐めてもらう",
       "background": {
@@ -2773,8 +2772,8 @@
       "id": "node_s_46",
       "type": "story",
       "pos": [
-        6150,
-        2490
+        6560,
+        2560
       ],
       "title": "舐めてもらう",
       "background": {
@@ -2841,8 +2840,8 @@
       "id": "node_e_21",
       "type": "event",
       "pos": [
-        6710,
-        2500
+        7120,
+        2570
       ],
       "title": "フェラ/ソファ",
       "background": {
@@ -2982,8 +2981,8 @@
       "id": "node_s_48",
       "type": "story",
       "pos": [
-        6670,
-        2970
+        7080,
+        3040
       ],
       "title": "パンティをズラしてもらう",
       "background": {
@@ -3071,8 +3070,8 @@
       "id": "node_s_49",
       "type": "story",
       "pos": [
-        8220,
-        2980
+        8630,
+        3050
       ],
       "title": "挿入/ソファ",
       "background": {
@@ -3178,8 +3177,8 @@
       "id": "node_e_24",
       "type": "event",
       "pos": [
-        8400,
-        2980
+        8810,
+        3050
       ],
       "title": "挿入/ソファ",
       "background": {
@@ -3318,8 +3317,8 @@
       "id": "node_e_26",
       "type": "event",
       "pos": [
-        8680,
-        2860
+        9090,
+        2930
       ],
       "title": "挿入/ソファ/胸モミ（ブラ）",
       "background": {
@@ -3412,8 +3411,8 @@
       "id": "node_e_27",
       "type": "event",
       "pos": [
-        8960,
-        2980
+        9370,
+        3050
       ],
       "title": "挿入/ソファ/胸モミ（直）",
       "background": {
@@ -3505,8 +3504,8 @@
       "id": "node_s_50",
       "type": "story",
       "pos": [
-        6170,
-        2220
+        6580,
+        2290
       ],
       "title": "足コキ/ソファ/靴",
       "background": {
@@ -3596,8 +3595,8 @@
       "id": "node_e_28",
       "type": "event",
       "pos": [
-        6410,
-        2220
+        6820,
+        2290
       ],
       "title": "足コキ/ソファ/靴",
       "background": {
@@ -4526,8 +4525,8 @@
       "id": "node_s_62",
       "type": "story",
       "pos": [
-        5140,
-        2700
+        5550,
+        2770
       ],
       "title": "隣に座る",
       "background": {
@@ -4582,8 +4581,8 @@
       "id": "node_e_49",
       "type": "event",
       "pos": [
-        5470,
-        2710
+        5880,
+        2780
       ],
       "title": "太ももに触れる",
       "background": {
@@ -4617,8 +4616,8 @@
       "id": "node_e_50",
       "type": "event",
       "pos": [
-        5510,
-        3850
+        5920,
+        3920
       ],
       "title": "胸を揉む/着衣",
       "background": {
@@ -4728,8 +4727,8 @@
       "id": "node_s_63",
       "type": "story",
       "pos": [
-        5520,
-        3330
+        5930,
+        3400
       ],
       "title": "キスをする",
       "background": {
@@ -4774,8 +4773,8 @@
       "id": "node_s_64",
       "type": "story",
       "pos": [
-        5750,
-        2710
+        6160,
+        2780
       ],
       "title": "スカートを捲る",
       "background": {
@@ -4827,8 +4826,8 @@
       "id": "node_e_51",
       "type": "event",
       "pos": [
-        6340,
-        2730
+        6750,
+        2800
       ],
       "title": "ディルドでいたずらする",
       "background": {
@@ -4898,8 +4897,8 @@
       "id": "node_s_65",
       "type": "story",
       "pos": [
-        7160,
-        2730
+        7570,
+        2800
       ],
       "title": "ディルドを挿入",
       "background": {
@@ -4947,8 +4946,8 @@
       "id": "node_e_52",
       "type": "event",
       "pos": [
-        7340,
-        2720
+        7750,
+        2790
       ],
       "title": "ディルドを挿入",
       "background": {
@@ -5013,8 +5012,8 @@
       "id": "node_s_66",
       "type": "story",
       "pos": [
-        6180,
-        2970
+        6590,
+        3040
       ],
       "title": "パンティを触る",
       "background": {
@@ -5044,8 +5043,8 @@
       "id": "node_e_53",
       "type": "event",
       "pos": [
-        6370,
-        2970
+        6780,
+        3040
       ],
       "title": "手マン/パンティ",
       "background": {
@@ -5115,8 +5114,8 @@
       "id": "node_e_54",
       "type": "event",
       "pos": [
-        7160,
-        2970
+        7570,
+        3040
       ],
       "title": "手マン/パンティズラし",
       "background": {
@@ -5185,8 +5184,8 @@
       "id": "node_e_55",
       "type": "event",
       "pos": [
-        5790,
-        3860
+        6200,
+        3930
       ],
       "title": "胸を揉む/ブラ",
       "background": {
@@ -5256,8 +5255,8 @@
       "id": "node_e_56",
       "type": "event",
       "pos": [
-        6110,
-        3830
+        6520,
+        3900
       ],
       "title": "胸を揉む/直",
       "background": {
@@ -5345,8 +5344,8 @@
       "id": "node_e_57",
       "type": "event",
       "pos": [
-        5880,
-        3230
+        6290,
+        3300
       ],
       "title": "キス/胸モミ",
       "background": {
@@ -5454,8 +5453,8 @@
       "id": "node_e_58",
       "type": "event",
       "pos": [
-        5880,
-        3460
+        6290,
+        3530
       ],
       "title": "キス/手マン",
       "background": {
@@ -5544,8 +5543,8 @@
       "id": "node_e_22",
       "type": "event",
       "pos": [
-        7410,
-        5750
+        7820,
+        5820
       ],
       "title": "バック2/四つん這い/ソファ",
       "background": {
@@ -5691,8 +5690,8 @@
       "id": "node_s_71",
       "type": "story",
       "pos": [
-        6850,
-        5750
+        7260,
+        5820
       ],
       "title": "バックで挿入/四つん這い/ソファ",
       "background": {
@@ -6368,8 +6367,8 @@
       "id": "node_e_01",
       "type": "event",
       "pos": [
-        8690,
-        3100
+        9100,
+        3170
       ],
       "title": "挿入/ソファ/側位",
       "background": {
@@ -6444,8 +6443,8 @@
       "id": "node_e_02",
       "type": "event",
       "pos": [
-        7090,
-        5750
+        7500,
+        5820
       ],
       "title": "バック/四つん這い/ソファ",
       "background": {
@@ -7397,8 +7396,8 @@
       "id": "node_e_18",
       "type": "event",
       "pos": [
-        3830,
-        4550
+        4240,
+        4620
       ],
       "title": "パンチラ撮影会",
       "background": {
@@ -7619,8 +7618,8 @@
       "id": "node_s_04",
       "type": "story",
       "pos": [
-        4440,
-        2840
+        4850,
+        2910
       ],
       "title": "着信アリ/撮影会後",
       "background": {
@@ -7703,8 +7702,8 @@
       "id": "node_s_05",
       "type": "story",
       "pos": [
-        4910,
-        1900
+        5320,
+        1970
       ],
       "title": "彼氏と電話/ソファ",
       "background": {
@@ -7804,8 +7803,8 @@
       "id": "node_s_06",
       "type": "story",
       "pos": [
-        5240,
-        2170
+        5650,
+        2240
       ],
       "title": "電話終わるまで我慢",
       "background": {
@@ -7909,8 +7908,8 @@
       "id": "node_s_07",
       "type": "story",
       "pos": [
-        4850,
-        2600
+        5260,
+        2670
       ],
       "title": "電話を切らせる",
       "background": {
@@ -7995,8 +7994,8 @@
       "id": "node_s_12",
       "type": "story",
       "pos": [
-        7160,
-        3200
+        7570,
+        3270
       ],
       "title": "クンニ",
       "background": {
@@ -9668,8 +9667,8 @@
       "id": "node_e_30",
       "type": "event",
       "pos": [
-        4120,
-        5800
+        4530,
+        5870
       ],
       "title": "パンチラ/四つん這い",
       "background": {
@@ -9696,31 +9695,13 @@
           "videoPosY": 47,
           "meterThreshold": 0,
           "videoBlurBg": true,
+          "audio": "assets/audio/node_e_30_jimi.wav",
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
+          "text": "この体勢....地味に辛いんだけど...",
           "textSpeed": 40,
-          "finishMediaScale": 1,
-          "finishMediaPosX": 50,
-          "finishMediaPosY": 50
-        },
-        {
-          "id": "act2",
-          "label": "体勢変更",
-          "icon": "play",
-          "video": "assets/videos/node_e_30_grok-video-ec0d4827-f3a5-4c34-b31e-f65484c65275_1.mp4",
-          "duration": 1,
-          "videoFit": "cover",
-          "videoScale": 0.7,
-          "videoPosX": 50,
-          "videoPosY": 50,
-          "meterThreshold": 0,
-          "videoBlurBg": true,
-          "audioLoop": false,
-          "audioVolume": 1,
-          "audioMix": "mix",
-          "videoLoop": false,
-          "textSpeed": 40,
+          "speaker": "ルリ",
           "finishMediaScale": 1,
           "finishMediaPosX": 50,
           "finishMediaPosY": 50
@@ -9741,7 +9722,9 @@
           "audioVolume": 1,
           "audioMix": "mix",
           "videoLoop": false,
+          "text": "はぁ..はぁ...\nパンツに吸い込まれてしまいそうだ...",
           "textSpeed": 40,
+          "speaker": "オジ",
           "finishMediaScale": 1,
           "finishMediaPosX": 50,
           "finishMediaPosY": 50
@@ -9784,10 +9767,10 @@
       "idleMediaType": "video",
       "idleVideoFit": "cover",
       "idleVideoScale": 0.65,
-      "idleVideoPosX": 50,
-      "idleVideoPosY": 50,
+      "idleVideoPosX": 49,
+      "idleVideoPosY": 100,
       "idleVideoBlurBg": true,
-      "idleAudioLoop": true,
+      "idleAudioLoop": false,
       "idleAudioVolume": 1,
       "idleAudioMix": "mix",
       "bgmLoop": true,
@@ -9804,14 +9787,17 @@
       "idleVideoMotion": {
         "kind": "pan-down",
         "speed": "normal"
-      }
+      },
+      "idleAudio": "assets/audio/node_e_30_toru.wav",
+      "idleText": "撮るだけだからね...",
+      "idleSpeaker": "ルリ"
     },
     "node_s_10": {
       "id": "node_s_10",
       "type": "story",
       "pos": [
-        4400,
-        5800
+        4810,
+        5870
       ],
       "title": "お尻揉み/四つん這い",
       "background": {
@@ -9916,8 +9902,8 @@
       "id": "node_e_60",
       "type": "event",
       "pos": [
-        4580,
-        5800
+        4990,
+        5870
       ],
       "title": "お尻揉み/四つん這い",
       "background": {
@@ -10086,8 +10072,8 @@
       "id": "node_e_59",
       "type": "event",
       "pos": [
-        5050,
-        5790
+        5460,
+        5860
       ],
       "title": "くぱぁ/四つん這い",
       "background": {
@@ -10150,7 +10136,7 @@
         }
       ],
       "meter": {
-        "threshold": 10,
+        "threshold": 60,
         "counting": "active_time"
       },
       "controls": {
@@ -10174,24 +10160,23 @@
       "idleAudioMix": "mix",
       "bgmLoop": true,
       "bgmVolume": 0.32,
-      "meterEnabled": false,
       "interactionMode": "speed",
       "targetSpeed": 1.5,
       "speedRange": 0.3,
       "idleAudio": "assets/audio/node_e_59_horoge.wav",
       "idleTextSpeed": 40,
-      "scrubRange": 0.1,
       "idleText": "そんなに広げないで...",
       "idleSpeaker": "ルリ",
       "done": true,
-      "bgm": "assets/audio/node_e_59_suberasu.wav"
+      "bgm": "assets/audio/node_e_59_suberasu.wav",
+      "meterEnabled": false
     },
     "node_s_14": {
       "id": "node_s_14",
       "type": "story",
       "pos": [
-        6590,
-        5480
+        7000,
+        5550
       ],
       "title": "素股/背面騎乗位/ソファ",
       "background": {
@@ -10208,9 +10193,9 @@
       "text": [
         {
           "speaker": "",
-          "body": "えっ……これ……素股って……？　\nあ……オジの……先端が、ルリのあそこに当たってる……",
+          "body": "これ……素股って……？　\n オジが動いたら...ルリのに入っちゃいそうなんだけど",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_14_1ASMR_test.wav",
+          "voiceSrc": "assets/audio/node_s_14_sumasoASMR_test (1).wav",
           "charMediaList": [
             {
               "type": "video",
@@ -10246,8 +10231,8 @@
       "id": "node_e_62",
       "type": "event",
       "pos": [
-        6120,
-        5790
+        6530,
+        5860
       ],
       "title": "素股/四つん這い",
       "background": {
@@ -10274,12 +10259,12 @@
           "videoPosY": 28,
           "meterThreshold": 0,
           "videoBlurBg": true,
-          "audio": "assets/audio/node_e_62_ASMR_tesdsdst.wav",
+          "audio": "assets/audio/node_e_62_yame.wav",
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
           "videoAudioOn": true,
-          "text": "やっ……！ \nオジの,硬いのが...当たってるって…… \nパンツの上から……擦りつけないで……",
+          "text": "ん……  なんか固いのが当たってるんだけど....\nちょっと...やめてよ...",
           "textSpeed": 40,
           "speaker": "ルリ",
           "finishMediaScale": 1,
@@ -10418,9 +10403,9 @@
         },
         {
           "speaker": "ルリ",
-          "body": "これから彼氏と会うのに... パンツ買わなきゃじゃん....\n イッちゃったからこれで終わりね\nあと、パンツ代は追加で払ってよね！",
+          "body": "これから彼氏と会うのに... パンツ買わなきゃじゃん....\n  パンツ代  追加で払ってよね",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_e_62_llk.wav",
+          "voiceSrc": "assets/audio/node_e_62_pan.wav",
           "usePrevMedia": true,
           "charMediaList": [
             {
@@ -10484,8 +10469,8 @@
       "id": "node_e_63",
       "type": "event",
       "pos": [
-        4140,
-        4550
+        4550,
+        4620
       ],
       "title": "パンチラ/うつ伏せ",
       "background": {
@@ -10603,8 +10588,8 @@
       "id": "node_s_11",
       "type": "story",
       "pos": [
-        4440,
-        4550
+        4850,
+        4620
       ],
       "title": "マッサージ提案/うつ伏せ",
       "background": {
@@ -10702,8 +10687,8 @@
       "id": "node_e_64",
       "type": "event",
       "pos": [
-        4690,
-        4560
+        5100,
+        4630
       ],
       "title": "マッサージ/うつ伏せ",
       "background": {
@@ -10874,8 +10859,8 @@
       "id": "node_s_15",
       "type": "story",
       "pos": [
-        4990,
-        4580
+        5400,
+        4650
       ],
       "title": "あれっ？湿っている？/うつ伏せ",
       "background": {
@@ -10980,8 +10965,8 @@
       "id": "node_e_65",
       "type": "event",
       "pos": [
-        5230,
-        1910
+        5640,
+        1980
       ],
       "title": "電話中に襲う",
       "background": {
@@ -11079,8 +11064,8 @@
       "id": "node_s_08",
       "type": "story",
       "pos": [
-        5170,
-        4910
+        5580,
+        4980
       ],
       "title": "もしして...",
       "background": {
@@ -11128,10 +11113,23 @@
         },
         {
           "speaker": "ルリ",
-          "body": "ってもうすぐ時間じゃん！\n満足したでしょ？\nじゃぁ帰るね！",
+          "body": "ってもうすぐ時間じゃん！\n満足したでしょ？\n じゃぁ　もう帰るから",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_08_2.wav",
+          "voiceSrc": "assets/audio/node_s_08_kae.wav",
           "usePrevMedia": true,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "",
+              "loop": "none"
+            }
+          ]
+        },
+        {
+          "speaker": "オジ",
+          "body": "しまった！！\nいいところまでいってたのに調子に乗ってしまった...\n回帰するしかないか....",
+          "displayMode": "nvl",
+          "charSpeed": 40,
           "charMediaList": [
             {
               "type": "video",
@@ -11524,8 +11522,8 @@
       "id": "node_e_47",
       "type": "event",
       "pos": [
-        5720,
-        4670
+        6130,
+        4740
       ],
       "title": "うつ伏せ手マン",
       "background": {
@@ -11679,8 +11677,8 @@
       "id": "node_e_48",
       "type": "event",
       "pos": [
-        4080,
-        5100
+        4490,
+        5170
       ],
       "title": "パンチラ/仰向け",
       "background": {
@@ -11785,8 +11783,8 @@
       "id": "node_s_19",
       "type": "story",
       "pos": [
-        4410,
-        5110
+        4820,
+        5180
       ],
       "title": "足撫で/仰向け",
       "background": {
@@ -11992,8 +11990,8 @@
       "id": "node_e_70",
       "type": "event",
       "pos": [
-        5380,
-        5480
+        5790,
+        5550
       ],
       "title": "足コキ/仰向け",
       "background": {
@@ -12218,8 +12216,8 @@
       "id": "node_e_68",
       "type": "event",
       "pos": [
-        5830,
-        4160
+        6240,
+        4230
       ],
       "title": "上乗せ胸モミ/着衣",
       "background": {
@@ -12331,8 +12329,8 @@
       "id": "node_e_71",
       "type": "event",
       "pos": [
-        6140,
-        4420
+        6550,
+        4490
       ],
       "title": "上乗せ胸モミ/ブラ",
       "background": {
@@ -12443,8 +12441,8 @@
       "id": "node_e_72",
       "type": "event",
       "pos": [
-        6450,
-        4680
+        6860,
+        4750
       ],
       "title": "上乗せ胸モミ/ブラズラ",
       "background": {
@@ -12555,8 +12553,8 @@
       "id": "node_e_73",
       "type": "event",
       "pos": [
-        6140,
-        4150
+        6550,
+        4220
       ],
       "title": "上乗せ胸モミ/素股/着衣",
       "background": {
@@ -12674,8 +12672,8 @@
       "id": "node_e_74",
       "type": "event",
       "pos": [
-        6450,
-        4430
+        6860,
+        4500
       ],
       "title": "上乗せ胸モミ/素股/ブラ",
       "background": {
@@ -12785,8 +12783,8 @@
       "id": "node_e_75",
       "type": "event",
       "pos": [
-        6760,
-        4690
+        7170,
+        4760
       ],
       "title": "上乗せ胸モミ/素股/ブラズラ",
       "background": {
@@ -12880,8 +12878,8 @@
       "id": "node_e_76",
       "type": "event",
       "pos": [
-        6440,
-        4160
+        6850,
+        4230
       ],
       "title": "上乗せ胸モミ/挿入/着衣",
       "background": {
@@ -12951,8 +12949,8 @@
       "id": "node_e_77",
       "type": "event",
       "pos": [
-        6760,
-        4430
+        7170,
+        4500
       ],
       "title": "上乗せ胸モミ/挿入/ブラ",
       "background": {
@@ -13031,8 +13029,8 @@
       "id": "node_e_78",
       "type": "event",
       "pos": [
-        7030,
-        4680
+        7440,
+        4750
       ],
       "title": "上乗せ胸モミ/挿入/ブラズラ",
       "background": {
@@ -13116,8 +13114,8 @@
       "id": "node_s_24",
       "type": "story",
       "pos": [
-        4700,
-        5120
+        5110,
+        5190
       ],
       "title": "マッサージ提案/仰向け",
       "background": {
@@ -13241,8 +13239,8 @@
       "id": "node_e_79",
       "type": "event",
       "pos": [
-        4960,
-        5130
+        5370,
+        5200
       ],
       "title": "マッサージ/仰向け",
       "background": {
@@ -13451,8 +13449,8 @@
       "id": "node_e_80",
       "type": "event",
       "pos": [
-        5520,
-        1920
+        5930,
+        1990
       ],
       "title": "目の前でオナる/通話中",
       "background": {
@@ -13603,8 +13601,8 @@
       "id": "node_e_81",
       "type": "event",
       "pos": [
-        5840,
-        1940
+        6250,
+        2010
       ],
       "title": "手マンする/通話中",
       "background": {
@@ -13697,8 +13695,8 @@
       "id": "node_e_82",
       "type": "event",
       "pos": [
-        6420,
-        1930
+        6830,
+        2000
       ],
       "title": "挿入する/通話中",
       "background": {
@@ -13767,8 +13765,8 @@
       "id": "node_s_26",
       "type": "story",
       "pos": [
-        6140,
-        1930
+        6550,
+        2000
       ],
       "title": "挿入する/通話中",
       "background": {
@@ -13834,8 +13832,8 @@
       "id": "node_s_28",
       "type": "story",
       "pos": [
-        6730,
-        1920
+        7140,
+        1990
       ],
       "title": "フィニッシュ/通話中",
       "background": {
@@ -13877,8 +13875,8 @@
       "id": "node_s_09",
       "type": "story",
       "pos": [
-        7030,
-        2500
+        7440,
+        2570
       ],
       "title": "交渉",
       "background": {
@@ -13946,8 +13944,8 @@
       "id": "node_e_83",
       "type": "event",
       "pos": [
-        6850,
-        2970
+        7260,
+        3040
       ],
       "title": "パンティズラし（アイドル）",
       "background": {
@@ -14099,8 +14097,8 @@
       "id": "node_s_46_copy7014",
       "type": "story",
       "pos": [
-        7530,
-        2960
+        7940,
+        3030
       ],
       "title": "舐めてもらう",
       "background": {
@@ -14167,8 +14165,8 @@
       "id": "node_e_84",
       "type": "event",
       "pos": [
-        7340,
-        3200
+        7750,
+        3270
       ],
       "title": "クンニ",
       "background": {
@@ -14916,8 +14914,8 @@
       "id": "node_e_93",
       "type": "event",
       "pos": [
-        6260,
-        3330
+        6670,
+        3400
       ],
       "title": "キス/手マン/胸モミ",
       "background": {
@@ -14951,8 +14949,8 @@
       "id": "node_s_33",
       "type": "story",
       "pos": [
-        5250,
-        4260
+        5660,
+        4330
       ],
       "title": "ベッド移動",
       "background": {
@@ -15005,8 +15003,8 @@
       "id": "node_s_35",
       "type": "story",
       "pos": [
-        5290,
-        4630
+        5700,
+        4700
       ],
       "title": "湿りチェック/うつ伏せ",
       "background": {
@@ -15096,8 +15094,8 @@
       "id": "node_s_36",
       "type": "story",
       "pos": [
-        5560,
-        4410
+        5970,
+        4480
       ],
       "title": "追加でお金払う",
       "background": {
@@ -15175,8 +15173,8 @@
       "id": "node_s_38",
       "type": "story",
       "pos": [
-        5560,
-        4170
+        5970,
+        4240
       ],
       "title": "強引にベッドに",
       "background": {
@@ -18135,8 +18133,8 @@
       "id": "node_e_59_copy2217",
       "type": "event",
       "pos": [
-        5510,
-        5780
+        5920,
+        5850
       ],
       "title": "手マン/四つん這い",
       "background": {
@@ -18333,8 +18331,8 @@
       "id": "node_s_61",
       "type": "story",
       "pos": [
-        3780,
-        5390
+        4190,
+        5460
       ],
       "title": "四つん這い移行",
       "background": {
@@ -18360,9 +18358,30 @@
               "src": "assets/videos/node_s_61_ai-artwork-video_b5614bb0-b706-448b-a19a-d47d67ae5d9a.mp4",
               "loop": "none",
               "fit": "cover",
-              "scale": 1.75,
-              "posX": 52,
-              "posY": 66,
+              "scale": 2.25,
+              "posX": 50,
+              "posY": 73,
+              "blurBg": true,
+              "frame": "assets/images/frames/node_s_61_flame.png",
+              "frameScale": 1.25,
+              "framePosX": 50,
+              "framePosY": 50
+            }
+          ]
+        },
+        {
+          "speaker": "オジ",
+          "body": "（こんなの...変なことしない方がおかしいだろ...）",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "assets/videos/node_s_61_node_e_30_grok-video-ec0d4827-f3a5-4c34-b31e-f65484c65275_1.mp4",
+              "loop": "none",
+              "fit": "cover",
+              "scale": 1.7,
+              "posX": 50,
+              "posY": 50,
               "blurBg": true,
               "frame": "assets/images/frames/node_s_61_flame.png",
               "frameScale": 1.25,
@@ -18388,8 +18407,8 @@
       "id": "node_e_61",
       "type": "event",
       "pos": [
-        5610,
-        5140
+        6020,
+        5210
       ],
       "title": "手マン/仰向け",
       "background": {
@@ -18582,8 +18601,8 @@
       "id": "node_s_23",
       "type": "story",
       "pos": [
-        5200,
-        5480
+        5610,
+        5550
       ],
       "title": "足コキ/仰向け",
       "background": {
@@ -18637,8 +18656,8 @@
       "id": "node_s_67",
       "type": "story",
       "pos": [
-        5350,
-        5150
+        5760,
+        5220
       ],
       "title": "パンツ撫で/仰向け",
       "background": {
@@ -18827,8 +18846,8 @@
       "id": "node_e_67",
       "type": "event",
       "pos": [
-        6830,
-        5470
+        7240,
+        5540
       ],
       "title": "挿入/背面騎乗位/ソファ",
       "background": {
@@ -18878,14 +18897,14 @@
           "videoPosX": 50,
           "videoPosY": 50,
           "meterThreshold": 0,
+          "nextNodeId": "node_e_02",
           "audioLoop": false,
           "audioVolume": 1,
           "audioMix": "mix",
           "textSpeed": 40,
           "finishMediaScale": 1,
           "finishMediaPosX": 50,
-          "finishMediaPosY": 50,
-          "nextNodeId": "node_e_02"
+          "finishMediaPosY": 50
         }
       ],
       "meter": {
@@ -18924,6 +18943,7 @@
           "speaker": "オジ",
           "body": "うわぁ……ルリちゃんの膣内……気持ちよすぎて……イッちゃった……",
           "charSpeed": 40,
+          "voiceSrc": "assets/audio/node_e_67_daASMR_test.wav",
           "charMediaList": [
             {
               "type": "video",
@@ -18954,7 +18974,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "いやぁ……ルリちゃんの中に出した瞬間、最高だった……でもこれだと一夜限りの関係で終わっちゃう……情けない……回帰しよう……",
+          "body": "いやぁ……ルリちゃんの中に出した瞬間\n最高だった……でもこれだと一夜限りの関係で終わっちゃう\n……情けない……回帰しよう……",
           "displayMode": "nvl",
           "charSpeed": 40,
           "usePrevMedia": true,
@@ -19642,8 +19662,8 @@
       ],
       "collapsed": false,
       "manualRect": [
-        3237.0448419858863,
-        1838.6072675111768,
+        3643.231274019472,
+        1904.5288834274643,
         6909.574047537626,
         4275.16269644761
       ]
@@ -19889,5 +19909,10 @@
   "cancelSound": "/projects/黒瀬瑠璃/assets/audio/cancel_cancel.mp3",
   "cancelSoundVolume": 0.5,
   "cursorSound": "/projects/黒瀬瑠璃/assets/audio/cursor_Cursor Hover Sound Effect, Digital Ui Menu Selection Tick, Light.mp3",
-  "cursorSoundVolume": 0.5
+  "cursorSoundVolume": 0.5,
+  "assetObfuscation": {
+    "method": "header-xor",
+    "headerBytes": 4096,
+    "key": "mOzqfUW5my8cw+BlVEs6Y1XQ2tMwdruvDUqWvO/OLbd//GjGqSmgYBoGt3IfyKCv"
+  }
 }
