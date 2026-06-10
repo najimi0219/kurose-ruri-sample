@@ -569,7 +569,7 @@
       "done": true,
       "groupId": "group_1778414694895",
       "bgmLoop": true,
-      "bgmVolume": 0.34,
+      "bgmVolume": 0.57,
       "bgm": "assets/audio/node_s_01_copy3137_grok-video-3b0a06a5-327d-43f4-9e20-02aa56a5b349.mp3"
     },
     "node_e_04": {
@@ -701,7 +701,7 @@
       "text": [
         {
           "speaker": "",
-          "body": "{b}{s:30}～ホテルにて～{/s}{/b}\n",
+          "body": "{b}{s:30}ーホテルー{/s}{/b}\n",
           "displayMode": "nvl",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_27_grok-video-86cd924e-d978-4856-aa96-34cf4392a3c8_2.mp3",
@@ -6630,12 +6630,12 @@
         "posX": 50,
         "posY": 50
       },
-      "bgm": "assets/audio/node_s_01_copy3137_copy1955_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3",
+      "bgm": "assets/audio/node_s_01_copy3137_copy1955_cafe.m4a",
       "transition": "white-fade",
       "text": [
         {
           "speaker": "",
-          "body": "{b}{s:30}パンケーキ店にて...{/s}{/b}",
+          "body": "{b}{s:30}ーパンケーキ店ー{/s}{/b}",
           "displayMode": "nvl",
           "charSpeed": 40,
           "charMediaList": [
@@ -7004,7 +7004,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_02_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3",
+      "bgm": "assets/audio/node_s_02_cafe.m4a",
       "transition": "white-fade",
       "text": [
         {
@@ -7328,12 +7328,12 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_02_copy1476_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3",
+      "bgm": "assets/audio/node_s_02_copy1476_cafe.m4a",
       "transition": "fade",
       "text": [
         {
           "speaker": "オジ",
-          "body": "それで、どこで撮影する？",
+          "body": "それで  どこで撮影する？",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_02_copy1476_1.wav",
           "charMediaList": [
@@ -16163,7 +16163,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_53_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3",
+      "bgm": "assets/audio/node_s_53_cafe.m4a",
       "transition": "fade",
       "text": [
         {
@@ -19090,7 +19090,7 @@
       "done": true,
       "bgmLoop": true,
       "bgmVolume": 0.75,
-      "bgm": "assets/audio/node_s_01_copy6403_copy1591_Sounds Of An Antique Cafe, A Relaxed Groove, Cafe Sounds And Distant Conversa.mp3"
+      "bgm": "assets/audio/node_s_01_copy6403_copy1591_cafe.m4a"
     },
     "node_s_20_copy7285": {
       "id": "node_s_20_copy7285",
@@ -19904,15 +19904,15 @@
     }
   ],
   "clickSoundVolume": 0.5,
-  "decideSound": "/projects/黒瀬瑠璃/assets/audio/decide_click1.mp3",
+  "decideSound": "assets/audio/decide_click1.mp3",
   "decideSoundVolume": 0.5,
-  "cancelSound": "/projects/黒瀬瑠璃/assets/audio/cancel_cancel.mp3",
+  "cancelSound": "assets/audio/cancel_cancel.mp3",
   "cancelSoundVolume": 0.5,
-  "cursorSound": "/projects/黒瀬瑠璃/assets/audio/cursor_Cursor Hover Sound Effect, Digital Ui Menu Selection Tick, Light.mp3",
+  "cursorSound": "assets/audio/cursor_Cursor Hover Sound Effect, Digital Ui Menu Selection Tick, Light.mp3",
   "cursorSoundVolume": 0.5,
   "assetObfuscation": {
     "method": "header-xor",
     "headerBytes": 4096,
-    "key": "RFNYLcuCMDuloTh23PHfaF1mnkx0vzlEAp0no/YZJWgjPABj7b1oZ9aStshBI+i3"
+    "key": "twXhp28zTziPwufPvAZ2KQqB+UXjfqn/qQtVufAKXBGKs4PaO+Ms558Y1E+X+8BF"
   }
 }
