@@ -18177,7 +18177,7 @@
           "id": "act4",
           "label": "指を入れる",
           "icon": "play",
-          "video": "assets/videos/node_e_59_copy2217_ai-artwork-video_68598a8f-35f3-4987-915e-fc6e04972cfe.mp4",
+          "video": "assets/videos/node_e_59_copy2217_ai-artwork-video_d094e983-cbfa-4b87-9352-126ff1ff0cb7.mp4",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 0.95,
@@ -18201,12 +18201,12 @@
           "id": "act4",
           "label": "自分で動いてもらう",
           "icon": "play",
-          "video": "assets/videos/node_e_59_copy2217_node_e_59_copy2217_a1.mp4",
+          "video": "assets/videos/node_e_59_copy2217_ai-artwork-video_941db569-44a5-49fb-ab84-2b19a7fb4147.mp4",
           "duration": 1,
           "videoFit": "cover",
-          "videoScale": 1,
-          "videoPosX": 50,
-          "videoPosY": 50,
+          "videoScale": 0.7,
+          "videoPosX": 52,
+          "videoPosY": 74,
           "meterThreshold": 0,
           "videoBlurBg": true,
           "audio": "assets/audio/node_e_59_copy2217_7.wav",
@@ -18262,7 +18262,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_e_59_copy2217_f1.mp4",
+              "src": "assets/videos/node_e_59_copy2217_ai-artwork-video_c3235ece-c179-4a7c-b763-d63e2d958892.mp4",
               "loop": "none",
               "fit": "cover",
               "scale": 2.55,
@@ -19038,7 +19038,7 @@
         },
         {
           "speaker": "",
-          "body": "俺には特別な力がある\n任意の瞬間に{b}『チェックポイント』{/b}を打てば、そこへいつでも戻れる\nいわゆる{b}『回帰能力』{/b}だ\n……ただ、チェックポイントは常に一つだけ\n新しいところに更新したら　前のポイントは消えてしまう\nそして戻った瞬間　チェックポイント以降の記憶は全部なくなってしまう\nだから俺自身も　何回このループを繰り返したのか　\n正確にはわからない……",
+          "body": "俺には特別な力がある\n任意の瞬間に{b}『回帰ポイント』{/b}を打てば、そこへいつでも戻れる\nいわゆる{b}『回帰能力』{/b}だ\n……ただ　回帰ポイントは常に一つだけ\n新しいところに更新したら　前のポイントは消えてしまう\nそして　��帰した瞬間　回帰ポイント以降の記憶は全部なくなってしまう\nだから俺自身も　何回このループを繰り返したのか　\n正確にはわからない……",
           "displayMode": "nvl",
           "charSpeed": 40,
           "usePrevMedia": true,
@@ -19913,6 +19913,6 @@
   "assetObfuscation": {
     "method": "header-xor",
     "headerBytes": 4096,
-    "key": "twXhp28zTziPwufPvAZ2KQqB+UXjfqn/qQtVufAKXBGKs4PaO+Ms558Y1E+X+8BF"
+    "key": "bInLlmSEyGRftm1rkwsY6Ss1vqisLjUwuopVvs2D1naq/K/TbRfRMhNcFs6FLz8H"
   }
 }
