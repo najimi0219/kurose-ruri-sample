@@ -1,5 +1,5 @@
 {
-  "title": "黒瀬瑠璃 sample版4",
+  "title": "黒瀬瑠璃 sample5",
   "subtitle": "",
   "version": "1.0.0",
   "startNodeId": "node_home",
@@ -132,7 +132,7 @@
             {
               "type": "video",
               "src": "assets/videos/00hanasikiku.mp4",
-              "loop": "none",
+              "loop": "loop",
               "fit": "cover",
               "scale": 1,
               "posX": 50,
@@ -510,23 +510,36 @@
         },
         {
           "speaker": "オジ",
-          "body": "（よし　とりあえず何はともあれホテルまで行くことができた！！）\n（今から色んな撮影できるとなると興奮がヤバいな...）",
+          "body": "（よし　とりあえず何はともあれホテルまで行くことができた！！）\n",
           "charSpeed": 40,
           "charMediaList": [
             {
-              "type": "image",
-              "src": "assets/images/node_s_27_grok-image-65a7ebed-28a6-4413-97c4-f33c91ac01c3.png",
+              "type": "video",
+              "src": "assets/videos/node_s_27_node_s_27_grok-video-e1aa02d6-baca-4d53-a536-fbe33638cafa - Trim.mp4",
               "loop": "none",
-              "duration": 3,
               "fit": "cover",
-              "scale": 1.1,
-              "posX": 50,
-              "posY": 34,
+              "scale": 1.25,
+              "posX": 49,
+              "posY": 58,
               "enterEffect": "whitein",
-              "motion": {
-                "kind": "pan-v",
-                "speed": "normal"
-              },
+              "blurBg": true
+            }
+          ]
+        },
+        {
+          "speaker": "ルリ",
+          "body": "（今から色んな撮影できるとなると興奮がヤバいな...）",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "assets/videos/node_s_27_node_s_27_hono.mp4",
+              "loop": "none",
+              "fit": "cover",
+              "scale": 1.55,
+              "posX": 51,
+              "posY": 73,
+              "enterEffect": "whitein",
               "blurBg": true
             }
           ]
@@ -552,24 +565,38 @@
         },
         {
           "speaker": "オジ",
-          "body": "あっ...分かったよ\n（てっきり『撮影会』って言ったから\nこっちが指示するポーズいっぱい取ってくれると思ってたのに……）\n（ただスマホいじりながら休憩したかっただけか....）\n（まあ……それでもパンティ見える距離で撮り放題って状況は変わらないけど）\n（でも...このまま終わるぐらいだったら.....)",
+          "body": "あっ...分かったよ\n（てっきり『撮影会』って言ったから\nこっちが指示するポーズいっぱい取ってくれると思ってたのに……）\n（ただスマホいじりながら休憩したかっただけか....）\n",
           "displayMode": "adv",
           "charSpeed": 40,
           "charMediaList": [
             {
-              "type": "image",
-              "src": "assets/images/node_s_27_grok-image-65a7ebed-28a6-4413-97c4-f33c91ac01c3.png",
+              "type": "video",
+              "src": "assets/videos/node_s_27_node_s_27_grok-video-39503e93-fbb8-4c37-9331-8c657ddf0601.mp4",
               "loop": "none",
-              "duration": 3,
               "fit": "cover",
-              "scale": 1.65,
-              "posX": 41,
-              "posY": 34,
+              "scale": 2.1,
+              "posX": 50,
+              "posY": 99,
               "enterEffect": "fade",
-              "motion": {
-                "kind": "pan-v",
-                "speed": "normal"
-              },
+              "blurBg": true
+            }
+          ]
+        },
+        {
+          "speaker": "オジ",
+          "body": "（まあ……それでもパンティ見える距離で撮り放題って状況は変わらないけど）\n（でも...このまま終わるぐらいだったら.....)",
+          "displayMode": "adv",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "assets/videos/node_s_27_node_s_27_up.mp4",
+              "loop": "none",
+              "fit": "cover",
+              "scale": 2.1,
+              "posX": 50,
+              "posY": 99,
+              "enterEffect": "fade",
               "blurBg": true
             }
           ]
@@ -601,8 +628,8 @@
       "id": "node_s_29",
       "type": "story",
       "pos": [
-        3390,
-        -30
+        3410,
+        990
       ],
       "title": "玄関で襲う",
       "background": {
@@ -702,8 +729,8 @@
       "id": "node_s_34",
       "type": "story",
       "pos": [
-        3880,
-        1810
+        4010,
+        4610
       ],
       "title": "ポーズ交渉",
       "background": {
@@ -711,6 +738,7 @@
         "src": "",
         "loop": false,
         "audioOn": false,
+        "fit": "cover",
         "scale": 1,
         "posX": 50,
         "posY": 50
@@ -722,33 +750,13 @@
           "body": "ルリちゃん……せっかくだから\n色んなポーズで撮りたいんだけど……\nいいかな？",
           "displayMode": "adv",
           "charSpeed": 40,
-          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_34_1_idle.mp4",
+              "src": "assets/videos/node_s_34_grok-video-69d41064-fb3e-4b48-be54-19f2d748d7ce.mp4",
               "loop": "none",
               "fit": "cover",
-              "scale": 1.55,
-              "posX": 50,
-              "posY": 74,
-              "blurBg": true
-            }
-          ]
-        },
-        {
-          "speaker": "オジ",
-          "body": "ルリちゃん……せっかくだから\n色んなポーズで撮りたいんだけど……\nいいかな？",
-          "displayMode": "adv",
-          "charSpeed": 40,
-          "charMediaMode": "add",
-          "charMediaList": [
-            {
-              "type": "video",
-              "src": "assets/videos/node_s_34_1_idle.mp4",
-              "loop": "none",
-              "fit": "cover",
-              "scale": 1.55,
+              "scale": 1.65,
               "posX": 50,
               "posY": 74,
               "blurBg": true
@@ -760,20 +768,16 @@
           "body": "めんどくさいなぁ....   まあ  追加料金もらってるし....\nしょうがないか....  簡単なやつだけだからね！",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/node_s_34_1.wav",
-          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_34_1_idle.mp4",
+              "src": "assets/videos/node_s_34_grok-video-69d41064-fb3e-4b48-be54-19f2d748d7ce (1)_1.mp4",
               "loop": "none",
               "fit": "cover",
-              "scale": 3.1,
-              "posX": 44,
-              "posY": 26,
-              "motion": {
-                "kind": "pan-v",
-                "speed": "normal"
-              },
+              "scale": 1.65,
+              "posX": 50,
+              "posY": 74,
+              "enterEffect": "fade",
               "blurBg": true
             }
           ]
@@ -789,15 +793,14 @@
       "done": true,
       "transitionDuration": 400,
       "bgmLoop": true,
-      "bgmVolume": 1,
-      "choices": []
+      "bgmVolume": 1
     },
     "node_s_41": {
       "id": "node_s_41",
       "type": "story",
       "pos": [
-        3600,
-        1810
+        3730,
+        4610
       ],
       "title": "ソファで寛ぐ",
       "background": {
@@ -819,44 +822,8 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_41_suwari.mp4",
-              "loop": "loop",
-              "fit": "cover",
-              "scale": 1.1,
-              "posX": 50,
-              "posY": 49,
-              "enterEffect": "whitein",
-              "blurBg": true
-            }
-          ]
-        },
-        {
-          "speaker": "",
-          "body": "（はぁ...俺も意気地なしだな）\n（玄関で襲うことも考えたけど　できなかった....）",
-          "charSpeed": 40,
-          "charMediaList": [
-            {
-              "type": "video",
-              "src": "assets/videos/node_s_41_asikumi2.mp4",
-              "loop": "loop",
-              "fit": "cover",
-              "scale": 1.1,
-              "posX": 50,
-              "posY": 49,
-              "enterEffect": "whitein",
-              "blurBg": true
-            }
-          ]
-        },
-        {
-          "speaker": "",
-          "body": "（はぁ...俺も意気地なしだな）\n（玄関で襲うことも考えたけど　できなかった....）",
-          "charSpeed": 40,
-          "charMediaList": [
-            {
-              "type": "video",
-              "src": "assets/videos/node_s_41_ai-artwork-video_b4b641e6-74e7-44c7-999c-df2c0c4e3d36.mp4",
-              "loop": "loop",
+              "src": "assets/videos/node_s_41_node_s_41_suwari.mp4",
+              "loop": "none",
               "fit": "cover",
               "scale": 1.3,
               "posX": 50,
@@ -868,47 +835,56 @@
         },
         {
           "speaker": "",
-          "body": "（撮影って言ってもスマホいじってるだけだしなぁ...）\n（この太ももとかだけでも最高は最高なのだがな）",
+          "body": "（撮影って言ってもスマホいじってるだけだしなぁ...）",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "assets/videos/node_s_41_node_s_41_asikumi2.mp4",
+              "loop": "none",
+              "fit": "cover",
+              "scale": 1.3,
+              "posX": 50,
+              "posY": 61,
+              "enterEffect": "whitein",
+              "blurBg": true
+            }
+          ]
+        },
+        {
+          "speaker": "",
+          "body": "（それにしてもルリちゃんって股のガード緩いよな....）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_41_ai-artwork-video_ddb31977-4e1f-42fe-af27-732ce6547bf6.mp4",
+              "src": "assets/videos/node_s_41_node_s_41_ai-artwork-video_b4b641e6-74e7-44c7-999c-df2c0c4e3d36.mp4",
               "loop": "none",
               "fit": "cover",
               "scale": 1.3,
               "posX": 50,
               "posY": 61,
               "enterEffect": "fade",
-              "motion": {
-                "kind": "pan-down",
-                "speed": "normal"
-              },
               "blurBg": true
             }
           ]
         },
         {
           "speaker": "",
-          "body": "（うほっ！）\n（ルリちゃんって股のガード緩いよな....クラスメートはいつもパンチラ拝めてそうだな...）\n（羨ましすぎる...）",
+          "body": "（クラスメートはいつもパンチラ拝めてそうだな...羨ましすぎる....）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
             {
-              "type": "image",
-              "src": "assets/images/node_s_41_grok-image-6049952c-d804-49f8-a4f1-87b20858ed86.png",
-              "loop": "none",
-              "duration": 3,
+              "type": "video",
+              "src": "assets/videos/node_s_41_node_s_41_grok-image-2813692a-6095-4d75-9340-40f61179215f.mp4",
+              "loop": "loop",
               "fit": "cover",
-              "scale": 0.85,
-              "posX": 53,
-              "posY": 47,
+              "scale": 1.45,
+              "posX": 50,
+              "posY": 58,
               "enterEffect": "fade",
-              "motion": {
-                "kind": "zoom-in",
-                "speed": "normal"
-              },
               "blurBg": true
             }
           ]
@@ -920,12 +896,12 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_41_grok-video-16ad6039-c58c-4cd0-8bc9-1ecd8209aa1c.mp4",
+              "src": "assets/videos/node_s_41_node_s_41_grok-video-16ad6039-c58c-4cd0-8bc9-1ecd8209aa1c.mp4",
               "loop": "loop",
               "fit": "cover",
               "scale": 1.1,
               "posX": 50,
-              "posY": 48,
+              "posY": 51,
               "blurBg": true
             }
           ]
@@ -948,8 +924,8 @@
       "id": "node_e_22",
       "type": "event",
       "pos": [
-        7690,
-        3020
+        7820,
+        5820
       ],
       "title": "バック2/四つん這い/ソファ",
       "background": {
@@ -1095,8 +1071,8 @@
       "id": "node_s_71",
       "type": "story",
       "pos": [
-        7130,
-        3020
+        7260,
+        5820
       ],
       "title": "バックで挿入/四つん這い/ソファ",
       "background": {
@@ -1499,8 +1475,8 @@
       "id": "node_e_02",
       "type": "event",
       "pos": [
-        7370,
-        3020
+        7500,
+        5820
       ],
       "title": "バック/四つん這い/ソファ",
       "background": {
@@ -1717,7 +1693,7 @@
             {
               "type": "video",
               "src": "assets/videos/00.mp4",
-              "loop": "none",
+              "loop": "loop",
               "fit": "cover",
               "scale": 1.1,
               "posX": 48,
@@ -1770,19 +1746,19 @@
           "speaker": "ルリ",
           "body": "…別にないかな",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/5.wav",
           "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/Seedance 20 - _IMG_12 ______________IMG_2 __IMG_3__IMG_4 will be used as the reference image for th.mp4",
+              "src": "assets/videos/node_s_01_copy3137_copy1955_grok-video-697e20a2-dfca-4d29-a5b7-bfa8f4334117_1.mp4",
               "loop": "none",
               "fit": "cover",
               "scale": 1.1,
               "posX": 48,
               "posY": 51,
               "enterEffect": "fade",
-              "blurBg": true
+              "blurBg": true,
+              "audioOn": true
             }
           ]
         },
@@ -2408,7 +2384,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（これは大チャンスだぞ！\n上手く立ち回れば撮影以上もいけるかも....）",
+          "body": "（これは大チャンスだぞ！）\n（上手く立ち回れば撮影以上もいけるかも....）",
           "charSpeed": 40,
           "charMediaMode": "add",
           "charMediaList": [
@@ -2440,7 +2416,7 @@
         },
         {
           "label": "多目的トイレで撮影",
-          "nextNodeId": "node_s_13"
+          "nextNodeId": ""
         }
       ],
       "done": true,
@@ -2452,8 +2428,8 @@
       "id": "node_e_18",
       "type": "event",
       "pos": [
-        4110,
-        1820
+        4240,
+        4620
       ],
       "title": "パンチラ撮影会",
       "background": {
@@ -2466,7 +2442,7 @@
         "posX": 50,
         "posY": 50
       },
-      "idleVideo": "assets/videos/node_e_18_1_idle.mp4",
+      "idleVideo": "assets/videos/node_e_18_grok-video-69d41064-fb3e-4b48-be54-19f2d748d7ce.mp4",
       "actions": [
         {
           "id": "act1",
@@ -2648,9 +2624,9 @@
       "transitionDuration": 1000,
       "idleMediaType": "video",
       "idleVideoFit": "cover",
-      "idleVideoScale": 0.7,
-      "idleVideoPosX": 50,
-      "idleVideoPosY": 74,
+      "idleVideoScale": 0.75,
+      "idleVideoPosX": 48,
+      "idleVideoPosY": 90,
       "idleVideoBlurBg": true,
       "idleAudioLoop": true,
       "idleAudioVolume": 1,
@@ -2674,8 +2650,8 @@
       "id": "node_s_04",
       "type": "story",
       "pos": [
-        4810,
-        930
+        4850,
+        2910
       ],
       "title": "着信アリ/撮影会後",
       "background": {
@@ -2758,8 +2734,8 @@
       "id": "node_s_05",
       "type": "story",
       "pos": [
-        5220,
-        940
+        5320,
+        1970
       ],
       "title": "彼氏と電話/ソファ",
       "background": {
@@ -2859,8 +2835,8 @@
       "id": "node_s_06",
       "type": "story",
       "pos": [
-        5550,
-        1210
+        5650,
+        2240
       ],
       "title": "電話終わるまで我慢",
       "background": {
@@ -2964,8 +2940,8 @@
       "id": "node_s_07",
       "type": "story",
       "pos": [
-        5190,
-        1220
+        5260,
+        2670
       ],
       "title": "電話を切らせる",
       "background": {
@@ -3050,8 +3026,8 @@
       "id": "node_e_30",
       "type": "event",
       "pos": [
-        4400,
-        3070
+        4530,
+        5870
       ],
       "title": "パンチラ/四つん這い",
       "background": {
@@ -3179,8 +3155,8 @@
       "id": "node_s_10",
       "type": "story",
       "pos": [
-        4680,
-        3070
+        4810,
+        5870
       ],
       "title": "お尻揉み/四つん這い",
       "background": {
@@ -3285,8 +3261,8 @@
       "id": "node_e_60",
       "type": "event",
       "pos": [
-        4860,
-        3070
+        4990,
+        5870
       ],
       "title": "お尻揉み/四つん這い",
       "background": {
@@ -3455,8 +3431,8 @@
       "id": "node_e_59",
       "type": "event",
       "pos": [
-        5330,
-        3060
+        5460,
+        5860
       ],
       "title": "くぱぁ/四つん這い",
       "background": {
@@ -3558,8 +3534,8 @@
       "id": "node_s_14",
       "type": "story",
       "pos": [
-        6870,
-        2750
+        7000,
+        5550
       ],
       "title": "素股/背面騎乗位/ソファ",
       "background": {
@@ -3614,8 +3590,8 @@
       "id": "node_e_62",
       "type": "event",
       "pos": [
-        6400,
-        3060
+        6530,
+        5860
       ],
       "title": "素股/四つん這い",
       "background": {
@@ -3852,8 +3828,8 @@
       "id": "node_e_63",
       "type": "event",
       "pos": [
-        4420,
-        1820
+        4550,
+        4620
       ],
       "title": "パンチラ/うつ伏せ",
       "background": {
@@ -3971,8 +3947,8 @@
       "id": "node_s_11",
       "type": "story",
       "pos": [
-        4720,
-        1820
+        4850,
+        4620
       ],
       "title": "マッサージ提案/うつ伏せ",
       "background": {
@@ -4070,8 +4046,8 @@
       "id": "node_e_64",
       "type": "event",
       "pos": [
-        4970,
-        1830
+        5100,
+        4630
       ],
       "title": "マッサージ/うつ伏せ",
       "background": {
@@ -4114,12 +4090,12 @@
           "id": "act2",
           "label": "太もも",
           "icon": "play",
-          "video": "assets/videos/node_e_64_node_e_64_grok-video-4a684efe-263d-4f90-89f5-246001be592b_1.mp4",
+          "video": "assets/videos/node_e_64_node_e_64_node_e_64_grok-video-4a684efe-263d-4f90-89f5-246001be592b_1.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
           "videoPosX": 50,
-          "videoPosY": 50,
+          "videoPosY": 69,
           "meterThreshold": 20,
           "videoBlurBg": true,
           "audio": "assets/audio/node_e_64_Neutral_test.wav",
@@ -4138,7 +4114,7 @@
           "id": "act5",
           "label": "太もも２",
           "icon": "play",
-          "video": "assets/videos/node_e_64_node_e_64_grok-video-4a684efe-263d-4f90-89f5-246001be592b.mp4",
+          "video": "assets/videos/node_e_64_node_e_64_node_e_64_grok-video-4a684efe-263d-4f90-89f5-246001be592b.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -4162,12 +4138,12 @@
           "id": "act3",
           "label": "お尻",
           "icon": "play",
-          "video": "assets/videos/node_e_64_node_e_64_grok-video-4a684efe-263d-4f90-89f5-246001be592b_2.mp4",
+          "video": "assets/videos/node_e_64_node_e_64_node_e_64_grok-video-4a684efe-263d-4f90-89f5-246001be592b_2.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
-          "videoPosX": 50,
-          "videoPosY": 50,
+          "videoPosX": 49,
+          "videoPosY": 27,
           "meterThreshold": 60,
           "videoBlurBg": true,
           "audio": "assets/audio/node_e_64_q.wav",
@@ -4175,7 +4151,7 @@
           "audioVolume": 1,
           "audioMix": "mix",
           "videoAudioOn": true,
-          "text": "ちょっと、　お尻は揉���ないでよ",
+          "text": "ちょっと、　お尻は揉まないでよ",
           "textSpeed": 40,
           "speaker": "ルリ",
           "finishMediaScale": 1,
@@ -4242,8 +4218,8 @@
       "id": "node_s_15",
       "type": "story",
       "pos": [
-        5270,
-        1850
+        5400,
+        4650
       ],
       "title": "あれっ？湿っている？/うつ伏せ",
       "background": {
@@ -4348,8 +4324,8 @@
       "id": "node_e_65",
       "type": "event",
       "pos": [
-        5540,
-        950
+        5640,
+        1980
       ],
       "title": "電話中に襲う",
       "background": {
@@ -4446,8 +4422,8 @@
       "id": "node_s_08",
       "type": "story",
       "pos": [
-        5450,
-        2180
+        5580,
+        4980
       ],
       "title": "もしして...",
       "background": {
@@ -4682,75 +4658,12 @@
         "autoMove": false
       }
     },
-    "node_s_13": {
-      "id": "node_s_13",
-      "type": "story",
-      "pos": [
-        2930,
-        2600
-      ],
-      "title": "多目的トイレ提案",
-      "background": {
-        "type": "image",
-        "src": "",
-        "fit": "cover",
-        "scale": 1,
-        "posX": 50,
-        "posY": 50,
-        "loop": false,
-        "audioOn": false
-      },
-      "bgm": "",
-      "transition": "fade",
-      "text": [
-        {
-          "speaker": "オジ",
-          "body": "それじゃ近くの公園の多目的トイレとかだとうどうかな？\n誰も来ないから邪魔も入らないし",
-          "charSpeed": 40,
-          "charMediaList": [
-            {
-              "type": "image",
-              "src": "assets/images/node_s_13_grok-image-ff85bc2d-ab85-4635-b034-4558f0795c74.png",
-              "loop": "none",
-              "duration": 3,
-              "fit": "cover",
-              "scale": 1,
-              "posX": 50,
-              "posY": 50,
-              "enterEffect": "none",
-              "exitEffect": "none",
-              "blurBg": true
-            }
-          ]
-        },
-        {
-          "speaker": "ルリ",
-          "body": "あんまり汚いところは嫌なんだけどなぁ...\nまぁそこでいいよ",
-          "charSpeed": 40,
-          "charMediaList": [
-            {
-              "type": "video",
-              "src": "",
-              "loop": "none"
-            }
-          ]
-        }
-      ],
-      "thumbnail": "",
-      "groupId": "group_1778415358092",
-      "transitionDuration": 400,
-      "move": {
-        "enabled": false,
-        "autoMove": false
-      },
-      "hidden": true
-    },
     "node_e_48": {
       "id": "node_e_48",
       "type": "event",
       "pos": [
-        4360,
-        2370
+        4490,
+        5170
       ],
       "title": "パンチラ/仰向け",
       "background": {
@@ -4855,8 +4768,8 @@
       "id": "node_s_19",
       "type": "story",
       "pos": [
-        4690,
-        2380
+        4820,
+        5180
       ],
       "title": "足撫で/仰向け",
       "background": {
@@ -5062,8 +4975,8 @@
       "id": "node_s_24",
       "type": "story",
       "pos": [
-        4980,
-        2390
+        5110,
+        5190
       ],
       "title": "マッサージ提案/仰向け",
       "background": {
@@ -5187,8 +5100,8 @@
       "id": "node_e_79",
       "type": "event",
       "pos": [
-        5240,
-        2400
+        5370,
+        5200
       ],
       "title": "マッサージ/仰向け",
       "background": {
@@ -5331,8 +5244,8 @@
       "id": "node_s_33",
       "type": "story",
       "pos": [
-        5530,
-        1530
+        5660,
+        4330
       ],
       "title": "ベッド移動",
       "background": {
@@ -5385,8 +5298,8 @@
       "id": "node_s_35",
       "type": "story",
       "pos": [
-        5570,
-        1900
+        5700,
+        4700
       ],
       "title": "湿りチェック/うつ伏せ",
       "background": {
@@ -5636,8 +5549,8 @@
       "id": "node_e_59_copy2217",
       "type": "event",
       "pos": [
-        5790,
-        3050
+        5920,
+        5850
       ],
       "title": "手マン/四つん這い",
       "background": {
@@ -5834,8 +5747,8 @@
       "id": "node_s_61",
       "type": "story",
       "pos": [
-        4060,
-        2660
+        4190,
+        5460
       ],
       "title": "四つん這い移行",
       "background": {
@@ -5910,8 +5823,8 @@
       "id": "node_s_23",
       "type": "story",
       "pos": [
-        5480,
-        2750
+        5610,
+        5550
       ],
       "title": "足コキ/仰向け",
       "background": {
@@ -5964,8 +5877,8 @@
       "id": "node_s_67",
       "type": "story",
       "pos": [
-        5630,
-        2420
+        5760,
+        5220
       ],
       "title": "パンツ撫で/仰向け",
       "background": {
@@ -6153,8 +6066,8 @@
       "id": "node_e_67",
       "type": "event",
       "pos": [
-        7110,
-        2740
+        7240,
+        5540
       ],
       "title": "挿入/背面騎乗位/ソファ",
       "background": {
@@ -6345,7 +6258,7 @@
         },
         {
           "speaker": "",
-          "body": "俺には特別な力がある\n任意の瞬間に{b}『回帰ポイント』{/b}を打てば、そこへいつでも戻れる\nいわゆる{b}『回帰能力』{/b}だ\n……ただ　回帰ポイントは常に一つだけ\n新しいところに更新したら　前のポイントは消えてしまう\nそして　��帰した瞬間　回帰ポイント以降の記憶は全部なくなってしまう\nだから俺自身も　何回このループを繰り返したのか　\n正確にはわからない……",
+          "body": "俺には特別な力がある\n任意の瞬間に{b}『回帰ポイント』{/b}を打てば、そこへいつでも戻れる\nいわゆる{b}『回帰能力』{/b}だ\n……ただ　回帰ポイントは常に一つだけ\n新しいところに更新したら　前のポイントは消えてしまう\nそして　回帰した瞬間　回帰ポイント以降の記憶は全部なくなってしまう\nだから俺自身も　何回このループを繰り返したのか　\n正確にはわからない……",
           "displayMode": "nvl",
           "charSpeed": 40,
           "usePrevMedia": true,
@@ -6369,6 +6282,7 @@
           "body": "そうだ今日はこの子か........\n写真はめちゃくちゃ可愛いから　さっきチェックポイントを打ったんだった\n回帰してるってことはかなりの大当たりだった可能性が高いな...\n会うのが楽しみだな～",
           "displayMode": "adv",
           "charSpeed": 40,
+          "usePrevMedia": true,
           "charMediaList": [
             {
               "type": "image",
@@ -6401,6 +6315,48 @@
     }
   },
   "groups": [
+    {
+      "id": "group_1775479049490",
+      "name": "ベッドシーン",
+      "description": "",
+      "nodeIds": [
+        "node_e_29",
+        "node_e_32",
+        "node_e_33",
+        "node_e_35",
+        "node_e_34",
+        "node_e_36",
+        "node_e_38",
+        "node_s_54",
+        "node_e_37",
+        "node_e_39",
+        "node_e_40",
+        "node_e_41",
+        "node_e_43",
+        "node_e_31",
+        "node_s_52",
+        "node_s_30",
+        "node_s_31",
+        "node_e_86",
+        "node_e_89",
+        "node_s_51",
+        "node_e_14",
+        "node_s_40",
+        "node_s_42",
+        "node_s_43",
+        "node_e_85",
+        "node_e_42",
+        "node_e_91",
+        "node_s_47"
+      ],
+      "collapsed": false,
+      "manualRect": [
+        3616.2166455582183,
+        -864.3813348566441,
+        4275.116482571803,
+        1278.8597483506019
+      ]
+    },
     {
       "id": "group_1775828145657",
       "name": "ソファ",
@@ -6504,8 +6460,8 @@
       ],
       "collapsed": false,
       "manualRect": [
-        3509.8681729936766,
-        867.2603198935012,
+        3643.231274019472,
+        1904.5288834274643,
         6909.574047537626,
         4275.16269644761
       ]
@@ -6535,8 +6491,8 @@
       ],
       "collapsed": false,
       "manualRect": [
-        3365.4126550240912,
-        -469.40997171121046,
+        3385.1701514723572,
+        553.0404694865529,
         3283.95809563633,
         1259.4063478664496
       ]
@@ -6558,6 +6514,31 @@
         1106,
         1352.024203447145,
         305.3835019470063
+      ]
+    },
+    {
+      "id": "group_1778160413890",
+      "name": "スペシャルプレイ（ソファ）",
+      "description": "",
+      "nodeIds": [
+        "node_e_20_copy0544",
+        "node_e_04_copy4085",
+        "node_e_24_copy6112",
+        "node_e_26_copy0101",
+        "node_e_27_copy1338",
+        "node_e_19_copy5040",
+        "node_e_02_copy6672",
+        "node_e_51_copy3805",
+        "node_e_25",
+        "node_e_01_copy7714",
+        "node_e_03"
+      ],
+      "collapsed": false,
+      "manualRect": [
+        9239.423604276528,
+        -145.36086872660871,
+        951.6922097035356,
+        1701.8022030515963
       ]
     },
     {
@@ -6681,6 +6662,43 @@
         2323.855824570007,
         1100.154754346262
       ]
+    },
+    {
+      "id": "group_1778856824141",
+      "name": "路地裏",
+      "description": "",
+      "nodeIds": [
+        "node_e_44",
+        "node_s_55"
+      ],
+      "collapsed": false,
+      "manualRect": [
+        1403.8619312086962,
+        -452.22074939375216,
+        937.4667348384219,
+        529.8599872264948
+      ]
+    },
+    {
+      "id": "group_1780116319259",
+      "name": "samplemove",
+      "description": "",
+      "nodeIds": [
+        "node_s_68",
+        "node_s_20_copy7285",
+        "node_home_copy1132",
+        "node_s_69",
+        "node_s_70",
+        "node_s_73",
+        "node_s_74"
+      ],
+      "collapsed": false,
+      "manualRect": [
+        -343.4002690636108,
+        86.39099589462728,
+        1591.9431038277564,
+        689.0908349846717
+      ]
     }
   ],
   "clickSoundVolume": 0.5,
@@ -6693,6 +6711,6 @@
   "assetObfuscation": {
     "method": "header-xor",
     "headerBytes": 4096,
-    "key": "yzkvqEDms48S8bnB8quFUE59aevkGG7AMyO3oZWdfhSy6BQBq8etOZXwDJg3CEDY"
+    "key": "kdFbw/OEhryG34DWyjqGZHT85luBJVXzuVKK8M5iiDaazhIoXvHWkGCxsJCg19va"
   }
 }
