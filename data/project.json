@@ -1753,7 +1753,7 @@
               "src": "assets/videos/node_s_01_copy3137_copy1955_grok-video-697e20a2-dfca-4d29-a5b7-bfa8f4334117_1.mp4",
               "loop": "none",
               "fit": "cover",
-              "scale": 1.1,
+              "scale": 1.05,
               "posX": 48,
               "posY": 51,
               "enterEffect": "fade",
@@ -1767,13 +1767,12 @@
           "body": "スマホに夢中で全然話聞いてないな…\nでも　これは逆にパンチラとか撮れちゃうんじゃないか？\n今のうちにテーブルの下から撮っておくか...........",
           "displayMode": "nvl",
           "charSpeed": 40,
-          "usePrevMedia": true,
           "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
               "src": "assets/videos/node_s_01_copy3137_copy1955_6.mp4",
-              "loop": "none",
+              "loop": "loop",
               "fit": "cover",
               "scale": 1.05,
               "posX": 49,
@@ -1785,7 +1784,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "（よーしいい感じにのアングルにセットできたな........）",
+          "body": "（よーし いい感じにのアングルにセットできたな........）",
           "displayMode": "adv",
           "charSpeed": 40,
           "charMediaMode": "add",
@@ -1793,7 +1792,7 @@
             {
               "type": "video",
               "src": "assets/videos/7.mp4",
-              "loop": "none",
+              "loop": "loop",
               "fit": "cover",
               "scale": 1.05,
               "posX": 53,
@@ -1807,7 +1806,6 @@
           "speaker": "オジ",
           "body": "（クッ...股のガードが堅いな.........）\n（もうちょっと粘るか）",
           "charSpeed": 40,
-          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "image",
@@ -1818,7 +1816,6 @@
               "scale": 1.3,
               "posX": 49,
               "posY": 54,
-              "enterEffect": "fade",
               "motion": {
                 "kind": "zoom-in",
                 "speed": "normal"
@@ -1831,7 +1828,6 @@
           "speaker": "オジ",
           "body": "（おっ！！　　　やっとガードを崩したぞ！）",
           "charSpeed": 40,
-          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -1841,7 +1837,6 @@
               "scale": 1.3,
               "posX": 49,
               "posY": 54,
-              "enterEffect": "fade",
               "motion": {
                 "kind": "zoom-in",
                 "speed": "normal"
@@ -1854,7 +1849,6 @@
           "speaker": "ルリ",
           "body": "（そのままズームしてっと....）\n（あぁ....この太ももとパンティの破壊力は凄まじいぞ.....)\n",
           "charSpeed": 40,
-          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -1864,7 +1858,6 @@
               "scale": 1,
               "posX": 50,
               "posY": 50,
-              "enterEffect": "fade",
               "blurBg": true
             }
           ]
@@ -1884,7 +1877,6 @@
               "scale": 1,
               "posX": 51,
               "posY": 47,
-              "enterEffect": "fade",
               "motion": {
                 "kind": "zoom-in",
                 "speed": "normal"
@@ -1897,7 +1889,6 @@
           "speaker": "オジ",
           "body": "（！？.............こんな大胆に開いて　どうしたんだ？）",
           "charSpeed": 40,
-          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -1916,7 +1907,6 @@
           "speaker": "オジ",
           "body": "（閉じる前にアップで撮っておかなきゃ....）",
           "charSpeed": 40,
-          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "video",
@@ -1936,7 +1926,6 @@
           "body": "ねぇ　おーーい　おじさーん",
           "charSpeed": 40,
           "voiceSrc": "assets/audio/14.wav",
-          "charMediaMode": "add",
           "charMediaList": [
             {
               "type": "image",
@@ -1947,7 +1936,6 @@
               "scale": 1.15,
               "posX": 55,
               "posY": 53,
-              "enterEffect": "fade",
               "motion": {
                 "kind": "zoom-in",
                 "speed": "normal"
@@ -2416,7 +2404,7 @@
         },
         {
           "label": "多目的トイレで撮影",
-          "nextNodeId": ""
+          "nextNodeId": "node_s_01"
         }
       ],
       "done": true,
@@ -6312,6 +6300,30 @@
       "bgmLoop": true,
       "bgmVolume": 0.75,
       "bgm": "assets/audio/node_s_01_copy6403_copy1591_cafe.m4a"
+    },
+    "node_s_01": {
+      "id": "node_s_01",
+      "type": "story",
+      "pos": [
+        2921.088677183297,
+        1690.4050161560067
+      ],
+      "title": "新しいシーン",
+      "background": {
+        "type": "image",
+        "src": ""
+      },
+      "bgm": "",
+      "transition": "fade",
+      "text": [
+        {
+          "body": "……",
+          "charSpeed": 40
+        }
+      ],
+      "nextNodeId": "",
+      "thumbnail": "",
+      "hidden": true
     }
   },
   "groups": [
@@ -6551,8 +6563,7 @@
         "node_s_72",
         "node_s_25_copy9483",
         "node_s_25_copy4705",
-        "node_s_25_copy4705_copy5654",
-        "node_s_01"
+        "node_s_25_copy4705_copy5654"
       ],
       "collapsed": false,
       "manualRect": [
@@ -6711,6 +6722,6 @@
   "assetObfuscation": {
     "method": "header-xor",
     "headerBytes": 4096,
-    "key": "kdFbw/OEhryG34DWyjqGZHT85luBJVXzuVKK8M5iiDaazhIoXvHWkGCxsJCg19va"
+    "key": "WI6Yg7F7Lw/cqiddvU7eztyOTfdv4QcmqAfU3pBpEkOgKYyBbVsVnftLDFFfbBCo"
   }
 }
