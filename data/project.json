@@ -15,7 +15,7 @@
       "subtitle": "",
       "background": {
         "type": "video",
-        "src": "assets/videos/node_home_grok-video-a4173706-828a-4803-9d69-94d6a0ff6d26.mp4",
+        "src": "assets/videos/node_home_grok-video-a4173706-828a-4803-9d69-94d6a0ff6d26.mp4.webm",
         "loop": false,
         "audioOn": true,
         "fit": "cover",
@@ -389,7 +389,8 @@
       "transitionDuration": 700,
       "done": true,
       "bgmLoop": true,
-      "bgmVolume": 1
+      "bgmVolume": 1,
+      "bgm": "assets/audio/node_s_01_copy6403_node_s_01_copy6403_grok-video-3b0a06a5-327d-43f4-9e20-02aa56a5b349.mp3"
     },
     "node_s_25": {
       "id": "node_s_25",
@@ -1595,7 +1596,7 @@
       ],
       "background": {
         "type": "video",
-        "src": "assets/videos/node_end_02_bad_end_grok-video-9faf0738-8c6f-4243-8e7e-d928573df66f.mp4",
+        "src": "assets/videos/node_end_02_bad_end_grok-video-9faf0738-8c6f-4243-8e7e-d928573df66f.mp4.webm",
         "fit": "cover",
         "scale": 1.5,
         "posX": 50,
@@ -1613,7 +1614,7 @@
         {
           "speaker": "キヨシ",
           "body": "よし、次はもっとうまくやるぞ....",
-          "voiceSrc": "assets/audio/node_end_02_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1.mp4",
+          "voiceSrc": "assets/audio/node_end_02_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1.mp4.ogg",
           "charMediaList": [
             {
               "type": "video",
@@ -2277,7 +2278,7 @@
         },
         {
           "id": "act3",
-          "label": "パンティの前に移動",
+          "label": "パンテ����の前に移動",
           "icon": "play",
           "video": "",
           "duration": 1,
@@ -6306,7 +6307,7 @@
       ],
       "background": {
         "type": "video",
-        "src": "assets/videos/bad_end_grok-video-9faf0738-8c6f-4243-8e7e-d928573df66f.mp4",
+        "src": "assets/videos/bad_end_grok-video-9faf0738-8c6f-4243-8e7e-d928573df66f.mp4.webm",
         "loop": true,
         "audioOn": true,
         "fit": "cover",
@@ -6328,7 +6329,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/bad_end_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1.mp4",
+              "src": "assets/videos/bad_end_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1.mp4.webm",
               "loop": "none",
               "fit": "cover",
               "scale": 1,
@@ -6486,7 +6487,7 @@
           "id": "act1",
           "label": "タッチ",
           "icon": "play",
-          "video": "assets/videos/node_e_02_1_1.mp4",
+          "video": "assets/videos/node_e_02_1_1.mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1.2,
@@ -6510,7 +6511,7 @@
           "id": "act3",
           "label": "奥まで突っ込む",
           "icon": "play",
-          "video": "assets/videos/node_e_02_2.mp4",
+          "video": "assets/videos/node_e_02_2.mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1.1,
@@ -6590,7 +6591,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_e_02_2_1.mp4",
+              "src": "assets/videos/node_e_02_2_1.mp4.webm",
               "loop": "loop",
               "fit": "cover",
               "scale": 1.15,
@@ -6653,7 +6654,7 @@
         "posX": 50,
         "posY": 50
       },
-      "bgm": "assets/audio/node_s_01_copy3137_copy1955_cafe.m4a",
+      "bgm": "assets/audio/node_s_01_copy3137_copy1955_cafe.m4a.ogg",
       "transition": "white-fade",
       "text": [
         {
@@ -6741,7 +6742,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_01_copy3137_copy1955_grok-video-697e20a2-dfca-4d29-a5b7-bfa8f4334117_1.mp4",
+              "src": "assets/videos/node_s_01_copy3137_copy1955_grok-video-697e20a2-dfca-4d29-a5b7-bfa8f4334117_1.mp4.webm",
               "loop": "none",
               "fit": "cover",
               "scale": 1.1,
@@ -7027,7 +7028,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_02_cafe.m4a",
+      "bgm": "assets/audio/node_s_02_cafe.m4a.ogg",
       "transition": "white-fade",
       "text": [
         {
@@ -7351,7 +7352,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_02_copy1476_cafe.m4a",
+      "bgm": "assets/audio/node_s_02_copy1476_cafe.m4a.ogg",
       "transition": "fade",
       "text": [
         {
@@ -7683,7 +7684,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_04_node_s_04_grok-video-092d36bc-7ef7-4104-91aa-898d3a6803e6 (1).mp4",
+              "src": "assets/videos/node_s_04_node_s_04_grok-video-092d36bc-7ef7-4104-91aa-898d3a6803e6 (1).mp4.webm",
               "loop": "none",
               "fit": "cover",
               "scale": 1.65,
@@ -9431,7 +9432,7 @@
       "finishMediaPosY": 18,
       "finishMediaBlurBg": true,
       "finishDuration": 0,
-      "finishAudio": "assets/audio/fin.mp4",
+      "finishAudio": "assets/audio/fin.mp4.ogg",
       "finishAudioVolume": 1,
       "done": true
     },
@@ -10222,7 +10223,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_14_ai-artwork-video_d82ed4bd-ffad-4eb3-8450-f073496742e5.mp4",
+              "src": "assets/videos/node_s_14_ai-artwork-video_d82ed4bd-ffad-4eb3-8450-f073496742e5.mp4.webm",
               "loop": "loop",
               "fit": "cover",
               "scale": 1.35,
@@ -10274,7 +10275,7 @@
           "id": "act1",
           "label": "タッチ",
           "icon": "play",
-          "video": "assets/videos/node_e_62_1_3.mp4",
+          "video": "assets/videos/node_e_62_1_3.mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 0.8,
@@ -10298,7 +10299,7 @@
           "id": "act4",
           "label": "尻コキ２",
           "icon": "play",
-          "video": "assets/videos/node_e_62_SeaArt  ComfyUI_00029_1_1.mp4",
+          "video": "assets/videos/node_e_62_SeaArt  ComfyUI_00029_1_1.mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 0.8,
@@ -10724,13 +10725,13 @@
         "loop": false,
         "audioOn": false
       },
-      "idleVideo": "assets/videos/node_e_64_ふくらはぎ２スクラブ.mp4",
+      "idleVideo": "assets/videos/node_e_64_ふくらはぎ２スクラブ.mp4.webm",
       "actions": [
         {
           "id": "act1",
           "label": "タッチ",
           "icon": "play",
-          "video": "assets/videos/node_e_64_ふくらはぎ２スクラブ.mp4",
+          "video": "assets/videos/node_e_64_ふくらはぎ２スクラブ.mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -10902,7 +10903,7 @@
           "speaker": "ルリ",
           "body": "んっ　んっ　んっ",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_15_Neutral_test.mp4",
+          "voiceSrc": "assets/audio/node_s_15_Neutral_test.mp4.ogg",
           "charMediaList": [
             {
               "type": "video",
@@ -10924,7 +10925,7 @@
           "speaker": "オジ",
           "body": "（あれ......?  もしかして感じてるのか？）",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_15_Neutral_test.mp4",
+          "voiceSrc": "assets/audio/node_s_15_Neutral_test.mp4.ogg",
           "usePrevMedia": true,
           "charMediaList": [
             {
@@ -11456,7 +11457,7 @@
           "body": "次はもっと上手くやるぞ....",
           "displayMode": "adv",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_20_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1 (2).mp4",
+          "voiceSrc": "assets/audio/node_s_20_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1 (2).mp4.ogg",
           "charMediaMode": "add",
           "charMediaList": [
             {
@@ -11830,7 +11831,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_19_saiyootomo.mp4",
+              "src": "assets/videos/node_s_19_saiyootomo.mp4.webm",
               "loop": "none",
               "fit": "cover",
               "scale": 1.3,
@@ -11850,7 +11851,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_19_saiyootomo.mp4",
+              "src": "assets/videos/node_s_19_saiyootomo.mp4.webm",
               "loop": "none",
               "fit": "cover",
               "scale": 1.3,
@@ -13276,13 +13277,13 @@
         "loop": false,
         "audioOn": false
       },
-      "idleVideo": "assets/videos/node_e_79_grok-video-37b349f0-7c30-4964-8fda-e20c1964fdd2.mp4",
+      "idleVideo": "assets/videos/node_e_79_grok-video-37b349f0-7c30-4964-8fda-e20c1964fdd2.mp4.webm",
       "actions": [
         {
           "id": "act3",
           "label": "足を広げる",
           "icon": "play",
-          "video": "assets/videos/node_e_79_node_e_79_grok-video-ef8257be-0c77-4d01-8642-6f2bc512d283 (1)_1_2.mp4",
+          "video": "assets/videos/node_e_79_node_e_79_grok-video-ef8257be-0c77-4d01-8642-6f2bc512d283 (1)_1_2.mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 0.8,
@@ -13306,7 +13307,7 @@
           "id": "act1",
           "label": "恥骨マッサージ",
           "icon": "play",
-          "video": "assets/videos/node_e_79_node_e_79_grok-video-ef8257be-0c77-4d01-8642-6f2bc512d283 (1)_1_4.mp4",
+          "video": "assets/videos/node_e_79_node_e_79_grok-video-ef8257be-0c77-4d01-8642-6f2bc512d283 (1)_1_4.mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 0.8,
@@ -16186,7 +16187,7 @@
         "loop": false,
         "audioOn": false
       },
-      "bgm": "assets/audio/node_s_53_cafe.m4a",
+      "bgm": "assets/audio/node_s_53_cafe.m4a.ogg",
       "transition": "fade",
       "text": [
         {
@@ -16275,7 +16276,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "せっかくいいところだったのに変帰られてしまった....\n下手な言い訳しなければ良かったのかな....",
+          "body": "せっかくいいところだったのに帰られてしまった....\n下手な言い訳しなければ良かったのかな....",
           "displayMode": "nvl",
           "charSpeed": 40,
           "usePrevMedia": true,
@@ -18170,13 +18171,13 @@
         "posX": 50,
         "posY": 50
       },
-      "idleVideo": "assets/videos/node_e_59_copy2217_node_e_59_copy2217_kupa.mp4",
+      "idleVideo": "assets/videos/node_e_59_copy2217_node_e_59_copy2217_kupa.mp4.webm",
       "actions": [
         {
           "id": "act3",
           "label": "指で撫でる",
           "icon": "play",
-          "video": "assets/videos/node_e_59_copy2217_node_e_59_copy2217_grok-video-ec0d4827-f3a5-4c34-b31e-f65484c65275 (5).mp4",
+          "video": "assets/videos/node_e_59_copy2217_node_e_59_copy2217_grok-video-ec0d4827-f3a5-4c34-b31e-f65484c65275 (5).mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 1,
@@ -18200,7 +18201,7 @@
           "id": "act4",
           "label": "指を入れる",
           "icon": "play",
-          "video": "assets/videos/node_e_59_copy2217_ai-artwork-video_d094e983-cbfa-4b87-9352-126ff1ff0cb7.mp4",
+          "video": "assets/videos/node_e_59_copy2217_ai-artwork-video_d094e983-cbfa-4b87-9352-126ff1ff0cb7.mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 0.95,
@@ -18224,7 +18225,7 @@
           "id": "act4",
           "label": "自分で動いてもらう",
           "icon": "play",
-          "video": "assets/videos/node_e_59_copy2217_ai-artwork-video_941db569-44a5-49fb-ab84-2b19a7fb4147.mp4",
+          "video": "assets/videos/node_e_59_copy2217_ai-artwork-video_f2adbe96-1b0a-446f-8828-33c2df05725f.mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 0.7,
@@ -18371,6 +18372,27 @@
       "transition": "fade",
       "text": [
         {
+          "speaker": "オジ",
+          "body": "次はソファに手を付いて四つん這いになってもらっていい？",
+          "charSpeed": 40,
+          "charMediaList": [
+            {
+              "type": "video",
+              "src": "assets/videos/node_s_61_ai-artwork-video_b5614bb0-b706-448b-a19a-d47d67ae5d9a.mp4",
+              "loop": "none",
+              "fit": "cover",
+              "scale": 2.25,
+              "posX": 50,
+              "posY": 73,
+              "blurBg": true,
+              "frame": "assets/images/frames/node_s_61_flame.png",
+              "frameScale": 1.25,
+              "framePosX": 50,
+              "framePosY": 50
+            }
+          ]
+        },
+        {
           "speaker": "ルリ",
           "body": "四つん這い？\n見えないからって変なことしないでよね！",
           "charSpeed": 40,
@@ -18378,7 +18400,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_61_ai-artwork-video_b5614bb0-b706-448b-a19a-d47d67ae5d9a.mp4",
+              "src": "assets/videos/node_s_61_node_s_61_node_s_61_node_e_30_grok-video-ec0d4827-f3a5-4c34-b31e-f65484c65275_1 - Trim.mp4",
               "loop": "none",
               "fit": "cover",
               "scale": 2.25,
@@ -18399,14 +18421,14 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_61_node_e_30_grok-video-ec0d4827-f3a5-4c34-b31e-f65484c65275_1.mp4",
+              "src": "assets/videos/node_s_61_1.mp4",
               "loop": "none",
               "fit": "cover",
-              "scale": 1.7,
-              "posX": 50,
-              "posY": 50,
+              "scale": 1.9,
+              "posX": 49,
+              "posY": 56,
               "blurBg": true,
-              "frame": "assets/images/frames/node_s_61_flame.png",
+              "frame": "assets/images/frames/node_s_61_node_s_61_flame.png",
               "frameScale": 1.25,
               "framePosX": 50,
               "framePosY": 50
@@ -18883,13 +18905,13 @@
         "posX": 50,
         "posY": 50
       },
-      "idleVideo": "assets/videos/node_e_67_ai-artwork-video_d82ed4bd-ffad-4eb3-8450-f073496742e5.mp4",
+      "idleVideo": "assets/videos/node_e_67_ai-artwork-video_d82ed4bd-ffad-4eb3-8450-f073496742e5.mp4.webm",
       "actions": [
         {
           "id": "act1",
           "label": "タッチ",
           "icon": "play",
-          "video": "assets/videos/node_e_67_1_2.mp4",
+          "video": "assets/videos/node_e_67_1_2.mp4.webm",
           "duration": 1,
           "videoFit": "cover",
           "videoScale": 0.7,
@@ -18970,7 +18992,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_e_67_f.mp4",
+              "src": "assets/videos/node_e_67_f.mp4.webm",
               "loop": "loop",
               "fit": "cover",
               "scale": 1.65,
@@ -19114,7 +19136,7 @@
       "done": true,
       "bgmLoop": true,
       "bgmVolume": 0.75,
-      "bgm": "assets/audio/node_s_01_copy6403_copy1591_cafe.m4a"
+      "bgm": "assets/audio/node_s_01_copy6403_copy1591_cafe.m4a.ogg"
     },
     "node_s_20_copy7285": {
       "id": "node_s_20_copy7285",
@@ -19144,7 +19166,7 @@
           "charMediaList": [
             {
               "type": "video",
-              "src": "assets/videos/node_s_20_SeaArt  ComfyUI_00002.mp4",
+              "src": "assets/videos/node_s_20_SeaArt  ComfyUI_00002.mp4.webm",
               "loop": "loop",
               "fit": "cover",
               "scale": 2.1,
@@ -19178,7 +19200,7 @@
           "speaker": "",
           "body": "（次はもっと上手くやるぞ....）",
           "charSpeed": 40,
-          "voiceSrc": "assets/audio/node_s_20_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1 (2).mp4",
+          "voiceSrc": "assets/audio/node_s_20_grok-video-551e6778-f77a-4e53-9af5-d34938edfad1 (2).mp4.ogg",
           "charMediaMode": "add",
           "charMediaList": [
             {
@@ -19219,7 +19241,7 @@
       "subtitle": "",
       "background": {
         "type": "video",
-        "src": "assets/videos/node_home_grok-video-a4173706-828a-4803-9d69-94d6a0ff6d26.mp4",
+        "src": "assets/videos/node_home_grok-video-a4173706-828a-4803-9d69-94d6a0ff6d26.mp4.webm",
         "loop": false,
         "audioOn": true,
         "fit": "cover",
@@ -19937,6 +19959,6 @@
   "assetObfuscation": {
     "method": "header-xor",
     "headerBytes": 4096,
-    "key": "8bWXfQcucdRCD+RTJ9D/OirQXhTI2J5dhircp9HOh71kR7oOqDz3DnQP4aWw5chT"
+    "key": "P6M2K6Hec2rbI7RyfUBtBOJ7+OJq9/O0cCeIxa+ZwPNzfKBd+QpzDwQ4y2bWAGW+"
   }
 }

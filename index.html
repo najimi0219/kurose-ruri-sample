@@ -131,11 +131,21 @@
           <button id="btn-story-skip" class="btn sys-menu-btn">スキップ</button>
           <button id="btn-dialog-all" class="btn sys-menu-btn">全表示</button>
           <button id="btn-story-hide-ui" class="btn sys-menu-btn">ウィンドウ消去</button>
+          <button id="btn-story-pause" class="btn sys-menu-btn">⏸ 一時停止</button>
         </div>
       </div>
 
       <!-- クリック待ちヒント（ループ行など自動進行しない時だけ薄く表示） -->
       <div id="story-next-hint" class="next-hint" aria-hidden="true">next ▼</div>
+
+      <!-- 一時停止オーバーレイ（どこでもクリックで再開） -->
+      <div id="story-pause-overlay" class="pause-overlay" aria-hidden="true">
+        <div class="pause-box">
+          <div class="pause-icon">⏸</div>
+          <div class="pause-title">一時停止中</div>
+          <div class="pause-sub">▶ 画面をクリック / タップで再開</div>
+        </div>
+      </div>
 
       <!-- Choices overlay -->
       <div id="choices-overlay" class="choices-overlay" hidden>
