@@ -109,6 +109,7 @@
           <button id="btn-nvl-back" class="btn sys-menu-btn"><span class="pi"></span> 一つ前に回帰する</button>
           <button id="btn-nvl-auto" class="btn sys-menu-btn">オート</button>
           <button id="btn-nvl-skip" class="btn sys-menu-btn">スキップ</button>
+          <button id="btn-nvl-log" class="btn sys-menu-btn">ログ</button>
         </div>
       </div>
 
@@ -129,6 +130,7 @@
           <button id="btn-story-back" class="btn sys-menu-btn"><span class="pi"></span> 一つ前に回帰する</button>
           <button id="btn-story-auto" class="btn sys-menu-btn">オート</button>
           <button id="btn-story-skip" class="btn sys-menu-btn">スキップ</button>
+          <button id="btn-story-log" class="btn sys-menu-btn">ログ</button>
           <button id="btn-dialog-all" class="btn sys-menu-btn">全表示</button>
           <button id="btn-story-hide-ui" class="btn sys-menu-btn">ウィンドウ消去</button>
           <button id="btn-story-pause" class="btn sys-menu-btn">⏸ 一時停止</button>
@@ -150,6 +152,17 @@
       <!-- Choices overlay -->
       <div id="choices-overlay" class="choices-overlay" hidden>
         <div class="choices-box" id="choices-box"></div>
+      </div>
+
+      <!-- テキストログ（バックログ）オーバーレイ -->
+      <div id="story-log-overlay" class="log-overlay" hidden>
+        <div class="log-panel">
+          <div class="log-header">
+            <span class="log-title">ログ</span>
+            <button id="btn-log-close" class="log-close" aria-label="閉じる">✕</button>
+          </div>
+          <div class="log-scroll" id="log-scroll"></div>
+        </div>
       </div>
     </section>
 

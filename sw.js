@@ -1,5 +1,5 @@
 // Service Worker: アセットキャッシュ（オフライン対応 & リピート高速化）
-const CACHE_NAME = 'novel-game-obf-t1ya2r';
+const CACHE_NAME = 'novel-game-obf-jkuv87';
 
 // キャッシュ対象の拡張子
 const CACHEABLE_EXT = /\.(mp4|webm|ogg|mp3|wav|m4a|aac|png|jpg|jpeg|gif|webp|svg|woff2?)$/i;
