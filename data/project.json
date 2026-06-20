@@ -1648,7 +1648,7 @@
         },
         {
           "speaker": "オジ",
-          "body": "はぁ……はぁ……\n……不覚にもイってしまった……\nでもこれじゃ一回限りだ……勿体ない\n……回帰するかぁ……",
+          "body": "はぁ……はぁ……\n不覚にもイってしまった……\nでもこれじゃ一回限りだ……勿体ない\n……回帰するかぁ……",
           "displayMode": "nvl",
           "charSpeed": 40,
           "charMediaList": [
@@ -6938,6 +6938,6 @@
   "assetObfuscation": {
     "method": "header-xor",
     "headerBytes": 4096,
-    "key": "eybwgD5Wb3OQ86G8Q5dG7VZdIZ1Yi5upITs6vxK2WmTi17r55Yee1D/rHihsH829"
+    "key": "JZRBNEOrVN3McO7ahnaal29SQbvQ9pyD6m2Ry7qIKYNQxpLhYInkLpbqvllpRBWO"
   }
 }
