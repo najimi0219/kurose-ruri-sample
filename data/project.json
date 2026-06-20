@@ -6938,6 +6938,6 @@
   "assetObfuscation": {
     "method": "header-xor",
     "headerBytes": 4096,
-    "key": "ge2JFvYU9CrcfNtdxclQSRklEpsiPLZsXbcJ2schzb/O7R11D1EJMEqKspjQZune"
+    "key": "XtLBgkPzM2Hmr/kqRXeCuBc8jVcRqfpv8R2YQ9uqatxAFgdATRww9u7DH6o7Go2A"
   }
 }

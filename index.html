@@ -241,9 +241,14 @@
     <!-- ==== END SCREEN ==== -->
     <section id="screen-end" class="screen safe-bottom">
       <!-- Background media -->
+      <!-- end-bg-anim: ストーリー背景(#story-bg-anim)と同じ130%ラッパー。
+           これが無いと END背景だけ height:100% が画面100%基準になり、エディタ/CP演出(130%基準)より
+           30%小さく表示され、END→CP演出の遷移でサイズが飛んで見える。 -->
       <div class="end-bg">
-        <video id="end-video" class="bg-video" playsinline webkit-playsinline preload="auto" loop muted style="display:none"></video>
-        <img id="end-img" class="bg-video" style="display:none" />
+        <div class="end-bg-anim">
+          <video id="end-video" class="bg-video" playsinline webkit-playsinline preload="auto" loop muted style="display:none"></video>
+          <img id="end-img" class="bg-video" style="display:none" />
+        </div>
       </div>
       <div class="end-bg-overlay"></div>
       <div class="end-content">
